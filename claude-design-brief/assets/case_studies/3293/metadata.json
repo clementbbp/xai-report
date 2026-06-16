@@ -1,0 +1,47 @@
+{
+  "article_id": 3293,
+  "c_score": 3,
+  "label": 0,
+  "prob": 0.448425,
+  "prob_cal": 0.4432149473438183,
+  "pred": 0,
+  "pred_cal": 0,
+  "case_study_reason": "boundary-c_score3",
+  "top_sentences_positive": [
+    {
+      "idx": 0,
+      "text": "Beaumont to fight cancer with Proton Therapy Center\n\nBeaumont Health will unveil today a high-tech cancer-fighting thera",
+      "attr": 1.0
+    },
+    {
+      "idx": 8,
+      "text": "Bret Jackson, president of the Economic Alliance for Michigan, which is a business and labor coalition, disputed the nee",
+      "attr": 0.9897
+    },
+    {
+      "idx": 4,
+      "text": "Craig Stevens, chairman of Radiation Oncology for Beaumont Health, has said. \u201cWe will have the capability to retreat can",
+      "attr": 0.6692
+    }
+  ],
+  "top_sentences_negative": [
+    {
+      "idx": 19,
+      "text": "Lawrence: elawrence@freepress.com.",
+      "attr": 0.0039
+    },
+    {
+      "idx": 24,
+      "text": "They travel up to two-thirds the speed of light.",
+      "attr": 0.0062
+    },
+    {
+      "idx": 16,
+      "text": "The release, however, also echoed the criticism.",
+      "attr": 0.0082
+    }
+  ],
+  "n_words_attributed": 714,
+  "n_sentences": 29,
+  "n_sentences_attributed": 27
+}

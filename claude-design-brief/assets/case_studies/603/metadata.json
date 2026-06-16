@@ -1,0 +1,47 @@
+{
+  "article_id": 603,
+  "c_score": 4,
+  "label": 1,
+  "prob": 0.8022,
+  "prob_cal": 0.8238584984877072,
+  "pred": 1,
+  "pred_cal": 1,
+  "case_study_reason": "confident-correct-constructive",
+  "top_sentences_positive": [
+    {
+      "idx": 16,
+      "text": "Danger of overtreatment  At organisation organisation, the child psychiatrist personmust handle the avalanche in  the Da",
+      "attr": 1.0
+    },
+    {
+      "idx": 30,
+      "text": "He uses the term \u2018gender transitions\u2019 about what  has traditionally been called 'gender reassignment' - and at the same ",
+      "attr": 0.8935
+    },
+    {
+      "idx": 29,
+      "text": "He asks rhetorically and continues: \"In fact, that's what you do when you support a  child in living as a boy even thoug",
+      "attr": 0.85
+    }
+  ],
+  "top_sentences_negative": [
+    {
+      "idx": 50,
+      "text": "In contrast to  the medical treatment, the CPR number can be changed if the child later regrets it. \u00ab.",
+      "attr": 0.0279
+    },
+    {
+      "idx": 46,
+      "text": "The majority told that their career opportunities had improved when they started to  be perceived as men.",
+      "attr": 0.0329
+    },
+    {
+      "idx": 48,
+      "text": "So, people do not know that we are already treating children and young people with  sex hormones?",
+      "attr": 0.0364
+    }
+  ],
+  "n_words_attributed": 1487,
+  "n_sentences": 51,
+  "n_sentences_attributed": 51
+}
