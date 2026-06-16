@@ -1,0 +1,47 @@
+{
+  "article_id": 2037,
+  "c_score": 4,
+  "label": 1,
+  "prob": 0.38675,
+  "prob_cal": 0.37567433343689843,
+  "pred": 0,
+  "pred_cal": 0,
+  "case_study_reason": "boundary-c_score4",
+  "top_sentences_positive": [
+    {
+      "idx": 0,
+      "text": "Traffic lights disagree on relief\n :\n                        SPD, Greens, FDP: Who wants which measures?",
+      "attr": 1.0
+    },
+    {
+      "idx": 23,
+      "text": "Terminations for this reason are also to be prohibited for six months.",
+      "attr": 0.8241
+    },
+    {
+      "idx": 25,
+      "text": "The upcoming increase in the CO2 price is to be suspended for two years, which the Greens have already rejected.",
+      "attr": 0.4302
+    }
+  ],
+  "top_sentences_negative": [
+    {
+      "idx": 19,
+      "text": "An overview.",
+      "attr": -0.1614
+    },
+    {
+      "idx": 45,
+      "text": "It does not provide an incentive to save energy.",
+      "attr": -0.1591
+    },
+    {
+      "idx": 15,
+      "text": "The Scholz cabinet demonstrates unity.",
+      "attr": -0.1524
+    }
+  ],
+  "n_words_attributed": 735,
+  "n_sentences": 48,
+  "n_sentences_attributed": 47
+}

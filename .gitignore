@@ -1,0 +1,5 @@
+# Only track claude-design-brief/ — everything else is local dev or Kaggle
+*
+!.gitignore
+!claude-design-brief/
+!claude-design-brief/**

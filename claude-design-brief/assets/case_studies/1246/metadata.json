@@ -1,0 +1,47 @@
+{
+  "article_id": 1246,
+  "c_score": 4,
+  "label": 1,
+  "prob": 0.023075,
+  "prob_cal": 0.01587229788370308,
+  "pred": 0,
+  "pred_cal": 0,
+  "case_study_reason": "confident-wrong-constructive",
+  "top_sentences_positive": [
+    {
+      "idx": 62,
+      "text": "Croatia wants to be incorporated into the Schengen area and is therefore under pressure from Brussels to show that  the ",
+      "attr": 1.0
+    },
+    {
+      "idx": 27,
+      "text": "Thus, poor Bosnia has been left with the responsibility of dealing with migrants who otherwise just wanted to  pass thro",
+      "attr": 0.6587
+    },
+    {
+      "idx": 76,
+      "text": "One of the camp's unaccompanied minors, 14-year-old person, will be with a small group  take a few steps back and go to ",
+      "attr": 0.6419
+    }
+  ],
+  "top_sentences_negative": [
+    {
+      "idx": 31,
+      "text": "Now .",
+      "attr": -0.1194
+    },
+    {
+      "idx": 30,
+      "text": "They want away.",
+      "attr": -0.1158
+    },
+    {
+      "idx": 54,
+      "text": "Our money, clothes and telephone.",
+      "attr": -0.1153
+    }
+  ],
+  "n_words_attributed": 2191,
+  "n_sentences": 82,
+  "n_sentences_attributed": 82
+}

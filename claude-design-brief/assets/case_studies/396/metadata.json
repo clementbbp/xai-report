@@ -1,0 +1,47 @@
+{
+  "article_id": 396,
+  "c_score": 1,
+  "label": 0,
+  "prob": 0.182,
+  "prob_cal": 0.16030890990777072,
+  "pred": 0,
+  "pred_cal": 0,
+  "case_study_reason": "confident-correct-conventional",
+  "top_sentences_positive": [
+    {
+      "idx": 15,
+      "text": "\"It is democratic and good that more and more people are voting, but there is also a downside, as it is entirely on its ",
+      "attr": 1.0
+    },
+    {
+      "idx": 0,
+      "text": "It does not make sense that imams and Muslim denominations have recommended residents in vulnerable areas  residential a",
+      "attr": 0.6271
+    },
+    {
+      "idx": 24,
+      "text": "She will not comment on whether some of the votes came from voters who may not be in favor.  other essential parts of th",
+      "attr": 0.5158
+    }
+  ],
+  "top_sentences_negative": [
+    {
+      "idx": 11,
+      "text": "But it illustrates well the point.",
+      "attr": -0.1997
+    },
+    {
+      "idx": 37,
+      "text": "In Gellerup in Aarhus: 34.2 percent of the vote.",
+      "attr": -0.1796
+    },
+    {
+      "idx": 32,
+      "text": "But I have not seen anyone  documentation for, \"she says.",
+      "attr": -0.1765
+    }
+  ],
+  "n_words_attributed": 921,
+  "n_sentences": 39,
+  "n_sentences_attributed": 39
+}

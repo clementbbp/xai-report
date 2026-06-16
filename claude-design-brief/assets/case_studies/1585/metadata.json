@@ -1,0 +1,47 @@
+{
+  "article_id": 1585,
+  "c_score": 3,
+  "label": 0,
+  "prob": 0.578975,
+  "prob_cal": 0.5868637522805478,
+  "pred": 0,
+  "pred_cal": 1,
+  "case_study_reason": "boundary-c_score3",
+  "top_sentences_positive": [
+    {
+      "idx": 32,
+      "text": "Since 2009 I have been saying that we should use  about 100 billion. dollars a year on research and development because ",
+      "attr": 1.0
+    },
+    {
+      "idx": 20,
+      "text": "I try to get people to focus on how to do the best for their money, \u201dhe says  person, who still believes he plays a role",
+      "attr": 0.3523
+    },
+    {
+      "idx": 44,
+      "text": "He has no doubt that person has had a major impact on the climate debate, albeit with  person eyes have been a negative ",
+      "attr": 0.3495
+    }
+  ],
+  "top_sentences_negative": [
+    {
+      "idx": 55,
+      "text": "Director of organisation.",
+      "attr": -0.1134
+    },
+    {
+      "idx": 56,
+      "text": "Head of organisationsince 2006.",
+      "attr": -0.1125
+    },
+    {
+      "idx": 54,
+      "text": "Author of a number of books on climate change and what should and should not be done about them.",
+      "attr": -0.1065
+    }
+  ],
+  "n_words_attributed": 1573,
+  "n_sentences": 58,
+  "n_sentences_attributed": 58
+}

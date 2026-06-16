@@ -1,0 +1,47 @@
+{
+  "article_id": 2140,
+  "c_score": 4,
+  "label": 1,
+  "prob": 0.6339,
+  "prob_cal": 0.6467770986693239,
+  "pred": 0,
+  "pred_cal": 1,
+  "case_study_reason": "boundary-c_score4",
+  "top_sentences_positive": [
+    {
+      "idx": 37,
+      "text": "The shutdown - hourly - of the power grid for residences is the highest level of the crisis plan.",
+      "attr": 1.0
+    },
+    {
+      "idx": 19,
+      "text": "The film still enjoys a certain popularity on YouTube, and its basic content is still valid today, a spokesman for the G",
+      "attr": 0.708
+    },
+    {
+      "idx": 0,
+      "text": "Gas shortage and energy shortage?",
+      "attr": 0.3754
+    }
+  ],
+  "top_sentences_negative": [
+    {
+      "idx": 26,
+      "text": "Private residences come last on the priority list.",
+      "attr": -0.1669
+    },
+    {
+      "idx": 33,
+      "text": "At some point, even the most cautious would stand by candlelight.",
+      "attr": -0.1576
+    },
+    {
+      "idx": 13,
+      "text": "The power generators do not.",
+      "attr": -0.1567
+    }
+  ],
+  "n_words_attributed": 1024,
+  "n_sentences": 49,
+  "n_sentences_attributed": 47
+}

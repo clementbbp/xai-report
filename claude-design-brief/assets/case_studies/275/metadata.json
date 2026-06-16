@@ -1,0 +1,47 @@
+{
+  "article_id": 275,
+  "c_score": 3,
+  "label": 0,
+  "prob": 0.95885,
+  "prob_cal": 0.9697988113467279,
+  "pred": 1,
+  "pred_cal": 1,
+  "case_study_reason": "confident-wrong-conventional",
+  "top_sentences_positive": [
+    {
+      "idx": 2,
+      "text": "Every year, European taxpayers lose billions of kroner to fraudsters, and organisation will now take action against this",
+      "attr": 1.0
+    },
+    {
+      "idx": 14,
+      "text": "The proposal came through the EU Parliament, but has never progressed beyond organisation, where more  Member States opp",
+      "attr": 0.4438
+    },
+    {
+      "idx": 3,
+      "text": "By using complicated company constructions, the scammers take advantage of lack of cooperation and one  failing controls",
+      "attr": 0.4371
+    }
+  ],
+  "top_sentences_negative": [
+    {
+      "idx": 21,
+      "text": "We need to have a finer mesh control network.",
+      "attr": -0.1895
+    },
+    {
+      "idx": 33,
+      "text": "The documents include searches, wiretaps, emails and accounting information.",
+      "attr": -0.1874
+    },
+    {
+      "idx": 23,
+      "text": "The auditors have also warned about this over and over again.",
+      "attr": -0.1852
+    }
+  ],
+  "n_words_attributed": 947,
+  "n_sentences": 35,
+  "n_sentences_attributed": 35
+}

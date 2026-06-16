@@ -1,0 +1,47 @@
+{
+  "article_id": 2421,
+  "c_score": 1,
+  "label": 0,
+  "prob": 0.1535,
+  "prob_cal": 0.13223726098158622,
+  "pred": 0,
+  "pred_cal": 0,
+  "case_study_reason": "confident-correct-conventional",
+  "top_sentences_positive": [
+    {
+      "idx": 20,
+      "text": "Read more about the new season of LRT TELEVISION and LRT PLUS on the dedicated page.",
+      "attr": 1.0
+    },
+    {
+      "idx": 19,
+      "text": "After the premiere, each programme will also be available for viewing in the LRT media centre.",
+      "attr": 0.197
+    },
+    {
+      "idx": 18,
+      "text": "The first episode of the project will be broadcast on LRT TELEVISION and on LRT.lt this Saturday at 9 pm.",
+      "attr": 0.1625
+    }
+  ],
+  "top_sentences_negative": [
+    {
+      "idx": 8,
+      "text": "Then I would include that song in my programme - before I dared to write it myself.",
+      "attr": -0.162
+    },
+    {
+      "idx": 6,
+      "text": "According to the singer, at the beginning of her career, the song \"Tamsus langas\" by A.",
+      "attr": -0.157
+    },
+    {
+      "idx": 5,
+      "text": "Vilkickyt\u0117, one of the five participants of the first \"Dream Duets\" show, about her determination to pursue a career as ",
+      "attr": -0.1555
+    }
+  ],
+  "n_words_attributed": 467,
+  "n_sentences": 21,
+  "n_sentences_attributed": 21
+}

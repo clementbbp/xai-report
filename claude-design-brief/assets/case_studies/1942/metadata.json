@@ -1,0 +1,47 @@
+{
+  "article_id": 1942,
+  "c_score": 4,
+  "label": 1,
+  "prob": 0.761725,
+  "prob_cal": 0.7825406310556018,
+  "pred": 1,
+  "pred_cal": 1,
+  "case_study_reason": "confident-correct-constructive",
+  "top_sentences_positive": [
+    {
+      "idx": 0,
+      "text": "On the icy shores of the North Sea, a \"graveyard\" under construction is raising the hopes of climate experts: soon, the ",
+      "attr": 1.0
+    },
+    {
+      "idx": 13,
+      "text": "On Monday, the Northern Lights partners announced a first cross-border commercial agreement that will see 800,000 tons o",
+      "attr": 0.321
+    },
+    {
+      "idx": 14,
+      "text": "The next day, Equinor unveiled a project with Germany's Wintershall Dea to build a 900-kilometer pipeline to transport C",
+      "attr": 0.2784
+    }
+  ],
+  "top_sentences_negative": [
+    {
+      "idx": 20,
+      "text": "Among environmentalists, the technology is not unanimously supported.",
+      "attr": -0.2514
+    },
+    {
+      "idx": 4,
+      "text": "With the ambition that it stays there indefinitely.",
+      "attr": -0.2131
+    },
+    {
+      "idx": 23,
+      "text": "\"Public money would be better invested in solutions that we know are effective and that could also reduce the bill of no",
+      "attr": -0.212
+    }
+  ],
+  "n_words_attributed": 617,
+  "n_sentences": 24,
+  "n_sentences_attributed": 24
+}

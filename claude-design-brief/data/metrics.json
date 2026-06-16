@@ -1,0 +1,147 @@
+{
+  "_note": "All numbers are from real Kaggle run completed 2026-06-16. Use these verbatim in the report.",
+
+  "model": {
+    "name": "Longformer-base-4096",
+    "architecture": "Transformer with global attention, reads up to 4096 tokens — about 3,000 words",
+    "trained_on": "2,534 news articles labeled for constructiveness by human annotators",
+    "output": "A score from 1 to 5. Scores of 4 or 5 are flagged as constructive candidates.",
+    "current_version": "Run 2"
+  },
+
+  "performance": {
+    "test_set_size": 567,
+    "test_set_constructive": 99,
+    "test_set_conventional": 468,
+    "base_rate_constructive_pct": 17.5,
+    "overall_accuracy_pct": 82.5,
+    "conventional_accuracy_pct": 96.4,
+    "_conventional_note": "Of 468 conventional articles, 451 correctly identified — 96.4%",
+    "constructive_recall_pct": 62.6,
+    "_recall_note": "At calibrated threshold 0.5, the model catches 62 out of 99 constructive articles",
+    "constructive_precision_pct": 37.6,
+    "_precision_note": "When the model flags something as constructive, it is right 38% of the time — 2x the 17.5% base rate",
+    "where_it_struggles": "c_score=4 articles (borderline constructive) — the model misses most of these due to limited training data",
+    "where_it_excels": "c_score=1 and 2 (clearly conventional) — error rate under 2%",
+    "spearman_r_test": 0.449,
+    "_spearman_note": "The continuous score correlates moderately with human ratings — useful as a ranking tool even where binary prediction fails"
+  },
+
+  "xai_faithfulness": {
+    "method": "Layer Integrated Gradients (LIG)",
+    "articles_analyzed": 211,
+    "lig_aopc_comprehensiveness": 0.301,
+    "random_baseline_aopc": 0.052,
+    "lig_vs_random_ratio": "5.7x above random",
+    "_aopc_note": "AOPC measures how much model confidence drops when the model's own top-ranked words are hidden. LIG highlights are 5.7x more informative than random word selection.",
+    "stability_spearman": 0.599,
+    "_stability_note": "When the same article is paraphrased slightly, the word importance rankings stay moderately consistent (Spearman 0.60 across 20 articles)"
+  },
+
+  "known_biases": {
+    "length_bias": {
+      "spearman_rho": 0.257,
+      "p_value": "< 0.001",
+      "interpretation": "Longer articles score slightly higher. The bias is statistically significant but modest — not strong enough to explain most predictions.",
+      "flagged": true
+    },
+    "source_gap": {
+      "max_precision_gap_pct": 12.2,
+      "dnm_precision_pct": 52.2,
+      "ebu_precision_pct": 40.0,
+      "interpretation": "Precision differs by up to 12% between the two training source corpora. Below the 25% concern threshold.",
+      "flagged": false
+    },
+    "sentiment_bias": {
+      "cohen_d": 0.319,
+      "interpretation": "Constructive articles are slightly more positive in tone, but the effect is small (Cohen's d = 0.32, below 0.5 threshold).",
+      "flagged": false
+    },
+    "name_sensitivity": {
+      "frac_articles_affected_pct": 66.5,
+      "interpretation": "In 2 out of 3 articles, masking named entities (people, organizations) shifts the model score by more than 5 percentage points. The model is sensitive to WHO an article is about, not just HOW it is written."
+    }
+  },
+
+  "sentence_showcase": {
+    "_note": "Three sentence types showing what the model reads as constructive. attr is within-article normalized (0–1, where 1.0 = strongest signal in that article). prob is the article-level model confidence. Bars are not cross-article comparable.",
+    "type_1": {
+      "label": "Named initiative with forward-looking outcome",
+      "sentence": "On the icy shores of the North Sea, a 'graveyard' under construction is raising the hopes of climate experts: soon, the site will house a small portion of the CO₂ emitted by European industry, thus preventing it from ending up in the atmosphere.",
+      "article_id": 1942,
+      "attr": 1.0,
+      "attr_note": "Highest-attributed sentence in article 1942, and the strongest single-sentence constructive signal across all 12 case studies.",
+      "article_prob": 0.762,
+      "article_verdict": "constructive",
+      "article_correct": true,
+      "context": "Opening sentence of a 2022 feature on Norway's Northern Lights carbon capture project. Named place, named actors, concrete future outcome, expert validation. Classic solutions journalism structure — the kind of sentence the model was trained to reward."
+    },
+    "type_2": {
+      "label": "Citizens filling an institutional gap",
+      "sentence": "Gas shortage and energy shortage? The Swiss government has done little to remedy the problem. Therefore, citizens are taking their own measures.",
+      "article_id": 2140,
+      "attr": 0.47,
+      "attr_note": "Opening paragraph of article 2140. The article's single highest-attributed sentence is deeper in the text (a line about hourly power-grid shutdowns as crisis-plan escalation).",
+      "article_prob": 0.634,
+      "article_verdict": "constructive",
+      "article_correct": true,
+      "context": "Opening of a Swiss article on the 2022 energy crisis. People are buying generators and stockpiling fuel while the government falls short. 'Citizens are taking their own measures' is the key constructive signal — ordinary people filling a gap left by institutions."
+    },
+    "type_3": {
+      "label": "Collective action at historical scale",
+      "sentence": "The cooperative movement was once at the forefront of the global struggle for consumer rights, affordable rents, and even... world peace.",
+      "article_id": 2469,
+      "attr": 0.38,
+      "attr_note": "Opening sentence of article 2469. The article's highest-attributed sentence (attr=1.0) is deeper in the text — the 1912 anti-war Basel Declaration.",
+      "article_prob": 0.719,
+      "article_verdict": "constructive",
+      "article_correct": true,
+      "context": "Opening of a long-form Swiss article tracing the cooperative movement from its 1912 anti-war origins to the present. The model responds to language of organized solidarity and universal stakes: 'global struggle', 'consumer rights', 'world peace'."
+    }
+  },
+
+  "showcase_case_studies": {
+    "1942": {
+      "story": "Carbon capture graveyard on the North Sea shore",
+      "c_score": 4,
+      "human_label": "constructive",
+      "model_prediction": "constructive",
+      "model_confidence": "76%",
+      "verdict": "correct",
+      "type": "confident-correct-constructive",
+      "top_signal_words": ["graveyard", "unveiled", "construction", "hopes", "experts", "dioxide", "equinor", "raising"],
+      "key_sentence": "On the icy shores of the North Sea, a 'graveyard' under construction is raising the hopes of climate experts: soon, the site will house a small portion of the CO2 emitted by European industry.",
+      "why_it_works": "Classic solutions journalism — a named technical initiative, a concrete outcome, a human-scale story. The model picks up on 'graveyard' (reframing), 'hopes', 'raising', 'unveiled' as constructiveness signals."
+    },
+    "2421": {
+      "story": "Lithuanian TV talk show pairing living performers with deceased legends via AI",
+      "c_score": 1,
+      "human_label": "conventional",
+      "model_prediction": "conventional",
+      "model_confidence": "85% conventional",
+      "verdict": "correct",
+      "type": "confident-correct-conventional",
+      "key_sentence": "Technology will help to make impossible duets come true in the musical talk show 'Dream Duets', which starts on Saturday on LRT TELEVISION.",
+      "why_it_works": "Entertainment news — no problem framed, no solution proposed, no community impact. The model correctly sees this as a conventional celebrity/entertainment story."
+    }
+  },
+
+  "failure_cases": {
+    "275": {
+      "story": "Social Democrats propose pan-European tax Europol to fight VAT fraud",
+      "c_score": 3,
+      "human_label": "conventional",
+      "model_prediction": "constructive (wrong)",
+      "model_confidence": "96%",
+      "why_it_fails": "The article describes a political proposal — it has solution-like language ('coordination', 'strengthen controls', 'cross-border') but is primarily a political story, not solutions journalism. The model is misled by the policy-proposal framing."
+    },
+    "1246": {
+      "story": "EU accused of complicity in violent pushback of migrants at Balkan border",
+      "c_score": 4,
+      "human_label": "constructive",
+      "model_prediction": "conventional (wrong)",
+      "model_confidence": "98% conventional",
+      "why_it_fails": "A deeply reported, human-centered investigation — the kind of journalism the model should surface. But the language is heavy: 'accused', 'violent', 'illegal', 'die'. The model reads tone rather than depth."
+    }
+  }
+}
