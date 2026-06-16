@@ -43,5 +43,6 @@
   ],
   "n_words_attributed": 1024,
   "n_sentences": 49,
-  "n_sentences_attributed": 47
+  "n_sentences_attributed": 47,
+  "predicted_score": 3.5
 }

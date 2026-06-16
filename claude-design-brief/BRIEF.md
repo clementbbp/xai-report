@@ -120,7 +120,7 @@ Build the report as a single scrollable page with anchor navigation. Sections in
 **Layout:** Two full-width article panels, displayed one after the other. Each panel:
 1. Article headline / summary (2–3 sentences)
 2. Model verdict badge: "Constructive ✓" or "Conventional ✓" in appropriate color
-3. Confidence indicator (e.g. "76% confident")
+3. Model score on the 1–5 scale — label `MODEL` paired with the `predicted_score` value from `data/metrics.json` (e.g. `MODEL  4.0`), mirroring the `C_SCORE` label layout. Do not show a percentage.
 4. Sentence highlight view (embed `sentence_chart.png` from assets/showcase/)
 5. Brief interpretive caption (1–2 sentences explaining what the chart shows)
 
@@ -129,7 +129,7 @@ Use: `assets/showcase/1942_sentence_chart.png`
 
 > **Article:** A 2022 news report on carbon capture technology under construction on Norway's North Sea coast. The facility will store CO₂ from European industry underground, indefinitely.
 >
-> **Model verdict:** Constructive — 76% confident ✓
+> **Model verdict:** Constructive ✓ — MODEL 4.0
 >
 > **Chart caption:** Each bar shows how much a sentence deviates from the article's own average — green means more constructive-signaling than typical for this piece, red means more conventional-signaling. The opening sentence — "a 'graveyard' under construction is raising the hopes of climate experts" — stands far above the average: it reframes industrial infrastructure as a hopeful solution. Sentences about the cross-border commercial agreement and new pipeline announcements follow. Red bars mark short, generic sentences or moments of skepticism about the technology ("the technology is not unanimously supported").
 
@@ -138,7 +138,7 @@ Use: `assets/showcase/2421_sentence_chart.png`
 
 > **Article:** A 2022 entertainment news piece about a Lithuanian TV talk show that uses AI to recreate duets between living performers and deceased music legends.
 >
-> **Model verdict:** Conventional — 85% confident ✓
+> **Model verdict:** Conventional ✓ — MODEL 1.6
 >
 > **Chart caption:** With no single sentence standing out as constructive, bars cluster tightly around zero. A few sentences tip slightly green — they contain language the model associates with constructive journalism (references to personal stories, childhood memories, artistic ambition) — but none are strong enough to move the article past the conventional threshold. The most conventional-signaling sentences (red) are the purely promotional ones: programme listings, broadcast times, channel mentions.
 
@@ -150,30 +150,30 @@ Use: `assets/showcase/2421_sentence_chart.png`
 1. Type label — small-caps chip or label in `--ink-muted`
 2. The sentence — blockquote style, serif, generous left border in `--sage`
 3. A directional signal bar (spec below)
-4. One-line meta: case study number + model verdict + confidence
+4. One-line meta: case study number + model verdict + model score (1–5)
 
 **Three cards — copy verbatim from `data/metrics.json` → `sentence_showcase`:**
 
-**Card 1 — "Named initiative with forward-looking outcome"** (article #1942, attr=1.0, 76% confident)
+**Card 1 — "Named initiative with forward-looking outcome"** (article #1942, attr=1.0, model score 4.0)
 > "On the icy shores of the North Sea, a 'graveyard' under construction is raising the hopes of climate experts: soon, the site will house a small portion of the CO₂ emitted by European industry, thus preventing it from ending up in the atmosphere."
 
 *Bar position: full green (attr=1.0 → fills entire right half of track)*
-*Meta: Case study #1942 — Model verdict: Constructive — 76% confident ✓*
+*Meta: Case study #1942 — Model verdict: Constructive ✓ — MODEL 4.0*
 
-**Card 2 — "Citizens filling an institutional gap"** (article #2140, attr=0.47, 63% confident)
+**Card 2 — "Citizens filling an institutional gap"** (article #2140, attr=0.47, model score 3.5)
 > "Gas shortage and energy shortage? The Swiss government has done little to remedy the problem. Therefore, citizens are taking their own measures."
 
 *Bar position: half green (attr=0.47 → fills ~47% of right half)*
-*Meta: Case study #2140 — Model verdict: Constructive — 63% confident ✓*
+*Meta: Case study #2140 — Model verdict: Constructive ✓ — MODEL 3.5*
 
-**Card 3 — "Collective action at historical scale"** (article #2469, attr=0.38, 72% confident)
+**Card 3 — "Collective action at historical scale"** (article #2469, attr=0.38, model score 3.9)
 > "The cooperative movement was once at the forefront of the global struggle for consumer rights, affordable rents, and even... world peace."
 
 *Bar position: moderate green (attr=0.38 → fills ~38% of right half)*
-*Meta: Case study #2469 — Model verdict: Constructive — 72% confident ✓*
+*Meta: Case study #2469 — Model verdict: Constructive ✓ — MODEL 3.9*
 
 **Footnote below the three cards (small, `--ink-muted`):**
-> "Each bar shows how far a sentence deviates from that article's own average signal — green means more constructive than the article's average, red means less. Bars are not directly comparable across articles. Article confidence is the model's overall verdict on the full piece."
+> "Each bar shows how far a sentence deviates from that article's own average signal — green means more constructive than the article's average, red means less. Bars are not directly comparable across articles. The model score (1–5) is the model's overall rating of the full piece."
 
 ---
 
@@ -193,7 +193,7 @@ The `attr` value (0–1) drives `width` as a percentage of the right half: `widt
   </div>
   <span class="signal-label">Constructive →</span>
 </div>
-<p class="signal-meta">Case study #1942 — Model verdict: <strong>Constructive</strong> — 76% confident ✓</p>
+<p class="signal-meta">Case study #1942 — Model verdict: <strong>Constructive</strong> ✓ — MODEL 4.0</p>
 ```
 
 ```css
@@ -261,7 +261,7 @@ The `attr` value (0–1) drives `width` as a percentage of the right half: `widt
 **Layout:** A navigable grid or tab interface with 12 cards. Each card shows:
 - Article ID and short description
 - c_score (human rating, 1–5)
-- Model prediction + confidence
+- Model score (1–5) — use `predicted_score` from each case study's `metadata.json`, displayed as `MODEL  X.X` alongside `C_SCORE  X`
 - Type badge: "Correct ✓" or "Missed ✗" in appropriate color
 - Category label: "confident-correct-constructive", "confident-wrong-constructive", etc.
 

@@ -72,6 +72,7 @@
       "attr": 1.0,
       "attr_note": "Highest-attributed sentence in article 1942, and the strongest single-sentence constructive signal across all 12 case studies.",
       "article_prob": 0.762,
+      "article_score": 4.0,
       "article_verdict": "constructive",
       "article_correct": true,
       "context": "Opening sentence of a 2022 feature on Norway's Northern Lights carbon capture project. Named place, named actors, concrete future outcome, expert validation. Classic solutions journalism structure — the kind of sentence the model was trained to reward."
@@ -83,6 +84,7 @@
       "attr": 0.47,
       "attr_note": "Opening paragraph of article 2140. The article's single highest-attributed sentence is deeper in the text (a line about hourly power-grid shutdowns as crisis-plan escalation).",
       "article_prob": 0.634,
+      "article_score": 3.5,
       "article_verdict": "constructive",
       "article_correct": true,
       "context": "Opening of a Swiss article on the 2022 energy crisis. People are buying generators and stockpiling fuel while the government falls short. 'Citizens are taking their own measures' is the key constructive signal — ordinary people filling a gap left by institutions."
@@ -94,6 +96,7 @@
       "attr": 0.38,
       "attr_note": "Opening sentence of article 2469. The article's highest-attributed sentence (attr=1.0) is deeper in the text — the 1912 anti-war Basel Declaration.",
       "article_prob": 0.719,
+      "article_score": 3.9,
       "article_verdict": "constructive",
       "article_correct": true,
       "context": "Opening of a long-form Swiss article tracing the cooperative movement from its 1912 anti-war origins to the present. The model responds to language of organized solidarity and universal stakes: 'global struggle', 'consumer rights', 'world peace'."
@@ -106,7 +109,7 @@
       "c_score": 4,
       "human_label": "constructive",
       "model_prediction": "constructive",
-      "model_confidence": "76%",
+      "model_score": 4.0,
       "verdict": "correct",
       "type": "confident-correct-constructive",
       "top_signal_words": ["graveyard", "unveiled", "construction", "hopes", "experts", "dioxide", "equinor", "raising"],
@@ -118,7 +121,7 @@
       "c_score": 1,
       "human_label": "conventional",
       "model_prediction": "conventional",
-      "model_confidence": "85% conventional",
+      "model_score": 1.6,
       "verdict": "correct",
       "type": "confident-correct-conventional",
       "key_sentence": "Technology will help to make impossible duets come true in the musical talk show 'Dream Duets', which starts on Saturday on LRT TELEVISION.",
@@ -132,7 +135,7 @@
       "c_score": 3,
       "human_label": "conventional",
       "model_prediction": "constructive (wrong)",
-      "model_confidence": "96%",
+      "model_score": 4.8,
       "why_it_fails": "The article describes a political proposal — it has solution-like language ('coordination', 'strengthen controls', 'cross-border') but is primarily a political story, not solutions journalism. The model is misled by the policy-proposal framing."
     },
     "1246": {
@@ -140,7 +143,7 @@
       "c_score": 4,
       "human_label": "constructive",
       "model_prediction": "conventional (wrong)",
-      "model_confidence": "98% conventional",
+      "model_score": 1.1,
       "why_it_fails": "A deeply reported, human-centered investigation — the kind of journalism the model should surface. But the language is heavy: 'accused', 'violent', 'illegal', 'die'. The model reads tone rather than depth."
     }
   }
