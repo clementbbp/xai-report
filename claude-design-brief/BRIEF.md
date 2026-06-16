@@ -102,7 +102,7 @@ Build the report as a single scrollable page with anchor navigation. Sections in
 
 **Panel 2 — What it misses (brick red accent)**
 > Headline: "Struggles at the boundary"
-> Body: The model catches about 6 in 10 constructive articles and is right 38% of the time when it flags one — more than twice the base rate. Its main failure is borderline content (c_score 4) rather than clear-cut cases.
+> Body: The model's main challenge is c_score 4 — borderline constructive articles with the fewest training examples. These often score 2.5–3.5 rather than 4+. Use the score as a priority queue, not a yes/no filter: the top of the list will be disproportionately constructive even when individual scores fall below a clear threshold.
 
 **Panel 3 — What drives the score (gold accent)**
 > Headline: "Sentence structure, not just topic"
@@ -188,7 +188,7 @@ The `attr` value (0–1) drives `width` as a percentage of the right half: `widt
   <span class="signal-label">← Conventional</span>
   <div class="signal-track">
     <div class="signal-center"></div>
-    <div class="signal-fill constructive" style="width: calc(0.76 * 50%);"></div>
+    <div class="signal-fill constructive" style="width: calc(1.0 * 50%);"></div>
     <!-- For conventional signals: class="signal-fill conventional", position right→left -->
   </div>
   <span class="signal-label">Constructive →</span>
@@ -304,23 +304,24 @@ On click/expand: show the full sentence chart (sentence_chart.png) and a link to
 | | |
 |--|--|
 | Test articles | 567 |
-| Overall accuracy | 82.5% |
-| Conventional correctly identified | 96.4% |
-| Constructive caught (recall) | ~63% at standard threshold |
-| When it flags something, it's right | ~38% of the time (vs. 17.5% base rate) |
-| Human rating correlation (Spearman) | 0.45 |
+| Score correlation with human ratings (Spearman r) | 0.45 |
+| Conventional articles correctly scored low | 96.4% (451 of 468) |
+| Constructive articles caught at score ≥ 3.0 | ~63% (62 of 99) |
+| Precision at score ≥ 3.0 | ~38% — more than 2× the 17.5% base rate |
 
 **Interpretation copy:**
-> "The headline number — 82.5% overall accuracy — is mostly driven by how well the model handles conventional journalism. 96% of non-constructive articles are correctly dismissed.
+> "The model is not a binary classifier — it assigns a score from 1 to 5. The right question is not 'does it flag the right articles?' but 'does a higher score mean more constructive journalism?' It does: the model's scores correlate with human ratings at Spearman r = 0.45 across 567 test articles. That is a moderate correlation — useful as a ranking and prioritization tool, not strong enough to be a final verdict.
 >
-> The model is more conservative on constructive content. At our standard threshold, it catches about 6 in 10 constructive articles and is right about 38% of the time when it flags one. That's more than twice the baseline chance of 17.5%, but it means the filter still produces noise.
+> Where it is most reliable: conventional journalism. 96% of clearly conventional articles score low. Editors using the tool as a first-pass filter will see very little noise from content that obviously isn't constructive.
 >
-> The score (1–5) is more useful than the binary label. Articles that score 4 or 5 are worth human review even when the model isn't fully confident, because the continuous score captures borderline cases that the binary label hides."
+> Where it struggles: borderline content. At a review threshold of score ≥ 3.0, the model surfaces about 6 in 10 constructive articles. Articles scoring between 2.5 and 3.5 are the hardest cases — often deeply reported journalism that the model underscores because it has seen too few examples like them in training.
+>
+> How to use the score: treat it as a ranked reading queue, not a gate. Set your own threshold based on review capacity. Articles at 4+ are strong candidates; articles at 3–4 are worth a second look; articles below 3 are unlikely to be constructive."
 
 **Charts to embed:**
-1. `assets/performance/ordinal_error_distribution.png` — caption: "Error rates by c_score. The model is nearly perfect on clearly conventional content (c_score 1–2) but struggles most at c_score 4 — the borderline constructive category with the fewest training examples."
-2. `assets/performance/confusion_matrix.png` — caption: "Confusion matrix at default threshold. Most errors are false negatives (constructive articles missed), not false positives."
-3. `assets/performance/calibration_by_cscore.png` — caption: "Mean model probability by human c_score. The scores are well-ordered — each step up in human rating corresponds to a higher model probability."
+1. `assets/performance/ordinal_error_distribution.png` — use only as supporting detail, not the lead visual. Caption: "Correct and incorrect predictions by human c_score. The model is nearly perfect on c_score 1–2 (clearly conventional) and struggles most at c_score 4 — the borderline constructive category with the fewest training examples. Note: the box plot on the left shows the model's internal score distribution, which maps to the 1–5 display scale; the bar chart on the right shows raw counts rather than rates."
+2. `assets/performance/calibration_by_cscore.png` — lead visual for this section. Caption: "Mean model score by human c_score. Each step up in human rating corresponds to a higher model score — the ordering is consistent across all five levels. **Note on the chart title:** the 'Spearman rho=1.000' statistic measures only whether the five group *averages* are monotonically ordered — which they always will be for a working model. It is not a measure of individual prediction accuracy and should not be read as 'the model is perfect.'"
+3. Do NOT embed `confusion_matrix.png`. It is generated at a fixed score threshold (≥ 4.0) that produces only 17% recall, which is inconsistent with the threshold-agnostic framing of this section and would mislead editors.
 
 ---
 
@@ -334,7 +335,7 @@ On click/expand: show the full sentence chart (sentence_chart.png) and a link to
 **Bias 1 — Article length**
 > **Finding:** Longer articles score slightly higher (Spearman ρ = 0.26, p < 0.001).
 > **What it means:** The bias is real but modest. Length alone can't explain most predictions, and it makes some intuitive sense — deeply reported constructive journalism tends to be longer. But editors should be aware that a long conventional piece may score higher than a short constructive one.
-> **Chart:** `assets/shortcuts/length_vs_prob.png`
+> **Chart:** `assets/shortcuts/length_vs_prob.png` — Caption: "Longer articles tend to receive higher model scores. The y-axis shows the model's internal scoring (mapped to our 1–5 display scale). The correlation is statistically significant but modest — length is a weak predictor, not a dominant one."
 
 **Bias 2 — Source corpus**
 > **Finding:** Precision is 12% higher on articles from one source corpus (DNM) than the other (EBU). Below our 25% concern threshold.
@@ -359,9 +360,9 @@ On click/expand: show the full sentence chart (sentence_chart.png) and a link to
 >
 > **Reading length:** Unlike most text classifiers, this model reads up to 4,096 tokens — roughly 3,000 words — in one pass. Most news articles fit within this window. Grey bars in the sentence charts indicate text beyond this limit.
 >
-> **The score:** The model predicts a number between 1 and 5. We treat articles scoring 4 or above as constructive candidates. The score is more useful than the binary label: an article scoring 3.8 is worth a different kind of attention than one scoring 1.2, even if both are technically "not flagged."
+> **The score:** The model predicts a number between 1 and 5. Articles scoring 4 or above are strong constructive candidates at our default threshold — but the threshold is a review-capacity decision, not a model property. An editor with more bandwidth might review everything above 3.0; an editor prioritizing precision might set 4.5. An article scoring 3.8 warrants different attention than one scoring 1.2, even if both fall below a given threshold.
 >
-> **The highlights:** We use a method called Layer Integrated Gradients (LIG) to ask: which parts of the article most influenced the score? We verified that these highlights are meaningful — hiding the highlighted sentences drops the model's confidence significantly more than hiding random sentences (5.7× more than random, measured across 211 articles).
+> **The highlights:** We use a method called Layer Integrated Gradients (LIG) to ask: which parts of the article most influenced the score? We verified that these highlights are meaningful — hiding the highlighted sentences drops the model's score significantly more than hiding random sentences (5.7× more than random, measured across 211 articles).
 >
 > **Limitations:** The model was trained on a relatively small dataset with limited constructive examples (~17.5% of training data). More labeled data — especially for borderline content — would improve it. The tool is best used as a first-pass filter, not a final editorial verdict.
 
