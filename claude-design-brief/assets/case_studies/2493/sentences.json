@@ -1,0 +1,156 @@
+{
+  "article_id": 2493,
+  "n_sentences": 25,
+  "sentences": [
+    {
+      "idx": 0,
+      "text": "In these low-emission zones, traffic is restricted for the most polluting vehicles, which are identified by the Crit'Air 5 and 4 stickers.",
+      "attr": 1.0,
+      "attributed": true
+    },
+    {
+      "idx": 1,
+      "text": "Several municipalities such as Marseille, Lyon and Toulouse are inaugurating or extending the implementation of their LEZ on Thursday.",
+      "attr": 0.1485,
+      "attributed": true
+    },
+    {
+      "idx": 2,
+      "text": "François Chollet, the vice-president of Toulouse Metropole in charge of Ecology, Sustainable Development and Energy Transition, estimates on Thursday 1 September on franceinfo that with the extension of the low emission zone (ZFE) on Thursday in his metropole, \"450,000 people will see a net improvement in air quality\" by 2024.",
+      "attr": 0.5555,
+      "attributed": true
+    },
+    {
+      "idx": 3,
+      "text": "Several municipalities such as Marseille, Lyon and Rouen are inaugurating or extending the implementation of their low-emission zones on Thursday, targeting the oldest and most polluting vehicles.",
+      "attr": 0.5163,
+      "attributed": true
+    },
+    {
+      "idx": 4,
+      "text": "franceinfo: What are the changes in the Toulouse metropolis today?",
+      "attr": -0.0848,
+      "attributed": true
+    },
+    {
+      "idx": 5,
+      "text": "François Chollet: The EPZ is extended to trucks and vans with a Crit'Air 4 sticker.",
+      "attr": -0.0492,
+      "attributed": true
+    },
+    {
+      "idx": 6,
+      "text": "Until now, it concerned Crit'Air 5, the most polluting heavy goods vehicles.",
+      "attr": -0.1056,
+      "attributed": true
+    },
+    {
+      "idx": 7,
+      "text": "Light vehicles will only be affected as of January 1, 2023.",
+      "attr": -0.1975,
+      "attributed": true
+    },
+    {
+      "idx": 8,
+      "text": "By 2024, when the EPZ is fully operational, 45,000 vehicles will be affected, or about 16% of the fleet.",
+      "attr": -0.0771,
+      "attributed": true
+    },
+    {
+      "idx": 9,
+      "text": "We are still in an educational phase, with random checks.",
+      "attr": -0.237,
+      "attributed": true
+    },
+    {
+      "idx": 10,
+      "text": "It is planned that the controls will be done by reading plates, with cameras, from the end of 2023 or the beginning of 2024.",
+      "attr": -0.1251,
+      "attributed": true
+    },
+    {
+      "idx": 11,
+      "text": "The order is issued for ten years.",
+      "attr": -0.2318,
+      "attributed": true
+    },
+    {
+      "idx": 12,
+      "text": "We tried to optimize the perimeter and its conditions to have the best gain in air quality and the least inconvenience for users.",
+      "attr": -0.0133,
+      "attributed": true
+    },
+    {
+      "idx": 13,
+      "text": "How can we support professionals in particular, who have not all been able to invest in a new utility vehicle?",
+      "attr": -0.1342,
+      "attributed": true
+    },
+    {
+      "idx": 14,
+      "text": "It's a constraint, so it requires anticipation.",
+      "attr": -0.2454,
+      "attributed": true
+    },
+    {
+      "idx": 15,
+      "text": "We have made sure that this EPZ is progressive in its application.",
+      "attr": -0.1779,
+      "attributed": true
+    },
+    {
+      "idx": 16,
+      "text": "This is also the reason why we have anticipated more than 18 months ago the aid for individuals and professionals.",
+      "attr": -0.098,
+      "attributed": true
+    },
+    {
+      "idx": 17,
+      "text": "We have the possibility of making transitional exemptions on a case-by-case basis, which may be justified, for example for construction vehicles or public utility associations such as the Restos du Cœur.",
+      "attr": 0.0345,
+      "attributed": true
+    },
+    {
+      "idx": 18,
+      "text": "There is aid for the renewal of vehicles for professionals, up to 10,000 euros per vehicle.",
+      "attr": -0.0954,
+      "attributed": true
+    },
+    {
+      "idx": 19,
+      "text": "These aids are quite successful and popular.",
+      "attr": -0.1704,
+      "attributed": true
+    },
+    {
+      "idx": 20,
+      "text": "And there are negotiations on a case-by-case basis, so as to minimize the economic impact on these professionals, while not distorting the benefit of the EPZ, which is major for air quality.",
+      "attr": 0.5927,
+      "attributed": true
+    },
+    {
+      "idx": 21,
+      "text": "What are the expected effects of the EPZ?",
+      "attr": -0.2167,
+      "attributed": true
+    },
+    {
+      "idx": 22,
+      "text": "The planned modelling shows that in 2024, 450,000 people in a conurbation of 780,000 will see a net improvement in air quality.",
+      "attr": -0.1015,
+      "attributed": true
+    },
+    {
+      "idx": 23,
+      "text": "This is very important.",
+      "attr": -0.2849,
+      "attributed": true
+    },
+    {
+      "idx": 24,
+      "text": "There are nearly 8,000 people in Toulouse who are permanently above the toxicity thresholds of nitrogen oxides, this number will be reduced.",
+      "attr": -0.2017,
+      "attributed": true
+    }
+  ]
+}

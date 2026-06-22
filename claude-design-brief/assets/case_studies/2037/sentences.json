@@ -1,0 +1,300 @@
+{
+  "article_id": 2037,
+  "n_sentences": 49,
+  "sentences": [
+    {
+      "idx": 0,
+      "text": "Traffic lights disagree on relief\n :\n                        SPD, Greens, FDP: Who wants which measures?",
+      "attr": 1.0,
+      "attributed": true
+    },
+    {
+      "idx": 1,
+      "text": "Helping citizens, but how?",
+      "attr": -0.0942,
+      "attributed": true
+    },
+    {
+      "idx": 2,
+      "text": "The traffic light coalition is discussing various measures.",
+      "attr": 0.051,
+      "attributed": true
+    },
+    {
+      "idx": 3,
+      "text": "There is also a dispute over funding.",
+      "attr": -0.0644,
+      "attributed": true
+    },
+    {
+      "idx": 4,
+      "text": "Who demands which relief - an overview.",
+      "attr": -0.0353,
+      "attributed": true
+    },
+    {
+      "idx": 5,
+      "text": "That new relief is coming is certain - what a relief package might look like is unclear.",
+      "attr": 0.0035,
+      "attributed": true
+    },
+    {
+      "idx": 6,
+      "text": "After the traffic light emphasized still unity with the parliamentary group meeting of the government at the weekend in Meseberg, there is now apparently already again discussion need.",
+      "attr": 0.2056,
+      "attributed": true
+    },
+    {
+      "idx": 7,
+      "text": "The ideas of the SPD, the Greens and the FDP diverge, especially when it comes to money.",
+      "attr": -0.0085,
+      "attributed": true
+    },
+    {
+      "idx": 8,
+      "text": "Finance Minister Christian Lindner still sees room for maneuver in the federal budget for this year for the relief package in the single-digit billion range.",
+      "attr": -0.0043,
+      "attributed": true
+    },
+    {
+      "idx": 9,
+      "text": "The Greens, however, do not consider this sufficient: New measures are \"certainly not in the single-digit billion range,\" explained parliamentary group leader Katharina Dröge.",
+      "attr": 0.0527,
+      "attributed": true
+    },
+    {
+      "idx": 10,
+      "text": "Greens and SPD for excess profits tax - FDP rejects\nSPD parliamentary group leader Rolf Mützenich would not categorically rule out a supplementary budget.",
+      "attr": 0.0715,
+      "attributed": true
+    },
+    {
+      "idx": 11,
+      "text": "\"I also offer to think about a supplementary budget then, if it is necessary,\" he told the radio station Bayern2-radiowelt.",
+      "attr": -0.001,
+      "attributed": true
+    },
+    {
+      "idx": 12,
+      "text": "The Greens and SPD can also envisage a special tax on excessive corporate profits to finance relief measures - something the FDP rejects as hardly feasible.",
+      "attr": -0.0225,
+      "attributed": true
+    },
+    {
+      "idx": 13,
+      "text": "All three coalition partners and numerous associations and lobby groups had campaigned for their relief proposals in recent weeks.",
+      "attr": -0.0822,
+      "attributed": true
+    },
+    {
+      "idx": 14,
+      "text": "Most recently, they have been moving closer together on a number of points.",
+      "attr": -0.0954,
+      "attributed": true
+    },
+    {
+      "idx": 15,
+      "text": "The Scholz cabinet demonstrates unity.",
+      "attr": -0.1483,
+      "attributed": true
+    },
+    {
+      "idx": 16,
+      "text": "The third discharge package was the focus of the closed meeting.",
+      "attr": -0.1245,
+      "attributed": true
+    },
+    {
+      "idx": 17,
+      "text": "Details are to be decided this weekend in the coalition committee.",
+      "attr": -0.1085,
+      "attributed": true
+    },
+    {
+      "idx": 18,
+      "text": "With which relief proposals are the traffic light parties entering the race?",
+      "attr": -0.0642,
+      "attributed": true
+    },
+    {
+      "idx": 19,
+      "text": "An overview.",
+      "attr": -0.1573,
+      "attributed": true
+    },
+    {
+      "idx": 20,
+      "text": "SPD\nThe leadership of the SPD parliamentary group has presented a list of demands that will be decided on Friday at the group's retreat.",
+      "attr": 0.118,
+      "attributed": true
+    },
+    {
+      "idx": 21,
+      "text": "These include direct payments for people with low incomes, families, pensioners, students and trainees.",
+      "attr": -0.0671,
+      "attributed": true
+    },
+    {
+      "idx": 22,
+      "text": "No one should have their electricity and gas cut off because they can't pay utilities.",
+      "attr": 0.0233,
+      "attributed": true
+    },
+    {
+      "idx": 23,
+      "text": "Terminations for this reason are also to be prohibited for six months.",
+      "attr": 0.8247,
+      "attributed": true
+    },
+    {
+      "idx": 24,
+      "text": "In order to keep energy prices down, there is to be a price brake for basic electricity and gas.",
+      "attr": 0.304,
+      "attributed": true
+    },
+    {
+      "idx": 25,
+      "text": "The upcoming increase in the CO2 price is to be suspended for two years, which the Greens have already rejected.",
+      "attr": 0.4323,
+      "attributed": true
+    },
+    {
+      "idx": 26,
+      "text": "There is to be a nationwide local transport ticket for 49 euros.",
+      "attr": -0.0147,
+      "attributed": true
+    },
+    {
+      "idx": 27,
+      "text": "Green\nThe Greens do not have an official list of demands, but the group leadership has proposed assistance for people with low incomes, i.e.",
+      "attr": 0.0632,
+      "attributed": true
+    },
+    {
+      "idx": 28,
+      "text": "basic income recipients, people with small pensions and families with children.",
+      "attr": -0.0922,
+      "attributed": true
+    },
+    {
+      "idx": 29,
+      "text": "These include reforms to citizen and housing benefits.",
+      "attr": -0.1076,
+      "attributed": true
+    },
+    {
+      "idx": 30,
+      "text": "The heating allowance should increase and another energy allowance should be paid out.",
+      "attr": -0.0408,
+      "attributed": true
+    },
+    {
+      "idx": 31,
+      "text": "For families, for example, the Greens want a higher child bonus.",
+      "attr": -0.1075,
+      "attributed": true
+    },
+    {
+      "idx": 32,
+      "text": "Like the SPD, they support a moratorium on electricity and gas cuts and a 49-euro ticket.",
+      "attr": 0.0075,
+      "attributed": true
+    },
+    {
+      "idx": 33,
+      "text": "FDP\nThe Liberals are primarily focusing on relief for the working population.",
+      "attr": -0.0881,
+      "attributed": true
+    },
+    {
+      "idx": 34,
+      "text": "The package should have only a few measures and not a hodgepodge, the group demands.",
+      "attr": -0.1199,
+      "attributed": true
+    },
+    {
+      "idx": 35,
+      "text": "\"Policy measures will not take away every imposition and will not be able to offset every burden,\" a resolution paper says.",
+      "attr": -0.0671,
+      "attributed": true
+    },
+    {
+      "idx": 36,
+      "text": "But it will not work without relieving the burden.",
+      "attr": -0.1267,
+      "attributed": true
+    },
+    {
+      "idx": 37,
+      "text": "At the center is an inflation adjustment in income tax.",
+      "attr": -0.1297,
+      "attributed": true
+    },
+    {
+      "idx": 38,
+      "text": "One-off payments are being considered for pensioners and students - but the FDP generally finds them less sensible.",
+      "attr": -0.0553,
+      "attributed": true
+    },
+    {
+      "idx": 39,
+      "text": "Liberals also support a reform of the housing allowance with more beneficiaries.",
+      "attr": -0.1328,
+      "attributed": true
+    },
+    {
+      "idx": 40,
+      "text": "In addition, gas and electricity prices are to be decoupled so that electricity does not automatically become more expensive when gas prices rise.",
+      "attr": -0.1097,
+      "attributed": true
+    },
+    {
+      "idx": 41,
+      "text": "Major problems are encountered by a coalition government in which there has recently been a lot of friction.",
+      "attr": -0.0739,
+      "attributed": true
+    },
+    {
+      "idx": 42,
+      "text": "ZDF reporter Klaus Brodbeck on the atmosphere at Meseberg Castle.",
+      "attr": -0.1461,
+      "attributed": true
+    },
+    {
+      "idx": 43,
+      "text": "Relief: This is what science demands\nA scientific study by DIW Econ, a subsidiary of the German Institute for Economic Research, recommends cushioning the high costs without imposing additional burdens on the environment.",
+      "attr": -0.1053,
+      "attributed": true
+    },
+    {
+      "idx": 44,
+      "text": "A heating allowance for housing benefit recipients and a 29-euro ticket for local public transport are suitable.",
+      "attr": -0.1308,
+      "attributed": true
+    },
+    {
+      "idx": 45,
+      "text": "On behalf of the 140-member Climate Alliance, the scientists advise against a gas price cap for basic needs.",
+      "attr": -0.1401,
+      "attributed": true
+    },
+    {
+      "idx": 46,
+      "text": "It does not provide an incentive to save energy.",
+      "attr": -0.155,
+      "attributed": true
+    },
+    {
+      "idx": 47,
+      "text": "In the case of lump-sum payments such as a heating allowance, on the other hand, the incentive to reduce one's own energy consumption remains.",
+      "attr": -0.1361,
+      "attributed": true
+    },
+    {
+      "idx": 48,
+      "text": "In addition, the study suggests lowering the VAT on plant-based foods and increasing it on meat.",
+      "attr": null,
+      "attributed": false
+    }
+  ]
+}

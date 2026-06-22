@@ -1,0 +1,372 @@
+{
+  "article_id": 2469,
+  "n_sentences": 61,
+  "sentences": [
+    {
+      "idx": 0,
+      "text": "The cooperative movement was once at the forefront of the global struggle for consumer rights, affordable rents, and even... world peace.",
+      "attr": 0.2955,
+      "attributed": true
+    },
+    {
+      "idx": 1,
+      "text": "The words \"cooperative\" and \"partnership\" are literally everywhere in everyday life in Switzerland.",
+      "attr": -0.0074,
+      "attributed": true
+    },
+    {
+      "idx": 2,
+      "text": "Its content, however, is very different from that of the word \"cooperative\" in Russian.",
+      "attr": -0.0548,
+      "attributed": true
+    },
+    {
+      "idx": 3,
+      "text": "Cooperative apartment?",
+      "attr": -0.119,
+      "attributed": true
+    },
+    {
+      "idx": 4,
+      "text": "This is probably the most common concept that arises in the mind of a post-Soviet person when saying this word.",
+      "attr": -0.0554,
+      "attributed": true
+    },
+    {
+      "idx": 5,
+      "text": "Cooperative as a form of grassroots political and social self-organization of citizens?",
+      "attr": -0.0702,
+      "attributed": true
+    },
+    {
+      "idx": 6,
+      "text": "No, you haven't!",
+      "attr": -0.1035,
+      "attributed": true
+    },
+    {
+      "idx": 7,
+      "text": "Once upon a time, the cooperative movement, as well as the trade unionist movement with a dash of anarcho-syndicalism, were at the forefront of a worldwide struggle for consumer rights, affordable rents, and even... world peace.",
+      "attr": 0.0989,
+      "attributed": true
+    },
+    {
+      "idx": 8,
+      "text": "Today we recall this form of social action that once looked like a panacea for all troubles and problems.",
+      "attr": -0.0536,
+      "attributed": true
+    },
+    {
+      "idx": 9,
+      "text": "Let's go back in history.",
+      "attr": -0.1091,
+      "attributed": true
+    },
+    {
+      "idx": 10,
+      "text": "In his speech at the opening of the 10th congress of the International Co-operative Alliance (ICA) in Basel in 1921, Rudolf Kündig, president of the Federation of Swiss Consumer Associations, struggled to find the right words.",
+      "attr": -0.0103,
+      "attributed": true
+    },
+    {
+      "idx": 11,
+      "text": "\"Our influence is too weak, we were helpless.",
+      "attr": -0.1171,
+      "attributed": true
+    },
+    {
+      "idx": 12,
+      "text": "Only ruins remain of the belief that we cooperators are capable of stopping the war.",
+      "attr": -0.1036,
+      "attributed": true
+    },
+    {
+      "idx": 13,
+      "text": "When ICA members gathered for their last congress, Russia was still ruled by the Czar and Germany by the Kaiser.",
+      "attr": -0.0955,
+      "attributed": true
+    },
+    {
+      "idx": 14,
+      "text": "And now the First World War has ended, four empires have disappeared from the map, a truly gigantic geopolitical catastrophe.",
+      "attr": -0.0916,
+      "attributed": true
+    },
+    {
+      "idx": 15,
+      "text": "The world of cooperative organizations was looking forward to its first postwar congress.",
+      "attr": -0.1036,
+      "attributed": true
+    },
+    {
+      "idx": 16,
+      "text": "For decades, the Cooperative International had a very clear policy on the issue of war: it saw itself as an effective movement for world peace.",
+      "attr": -0.101,
+      "attributed": true
+    },
+    {
+      "idx": 17,
+      "text": "Representatives of the International have repeatedly stressed that their mission ─ economic, not political.",
+      "attr": -0.0782,
+      "attributed": true
+    },
+    {
+      "idx": 18,
+      "text": "Nevertheless, the economic ideas of the ICA were so comprehensive that many were convinced of the ability of cooperatives to play a truly peacemaking role.",
+      "attr": -0.0614,
+      "attributed": true
+    },
+    {
+      "idx": 19,
+      "text": "Rudolf Kündig's speech in Basel was listened to attentively by representatives of Argentina, Ukraine, Latvia and the United States.",
+      "attr": -0.0862,
+      "attributed": true
+    },
+    {
+      "idx": 20,
+      "text": "The British movement, the birthplace of modern cooperatives, sent a delegation of a hundred people.",
+      "attr": -0.0863,
+      "attributed": true
+    },
+    {
+      "idx": 21,
+      "text": "Delegates from Soviet Russia were less fortunate - some Western European states refused to issue them transit visas.",
+      "attr": -0.0756,
+      "attributed": true
+    },
+    {
+      "idx": 22,
+      "text": "The Basel Congress was attended not only by cooperators, but also by the then president of Switzerland and representatives of the four cantonal governments of the country.",
+      "attr": 0.1668,
+      "attributed": true
+    },
+    {
+      "idx": 23,
+      "text": "A delegation from the newly created League of Nations was also present, and its Under-Secretary General Inazo Nitobe gave a speech expressing the broadest support for the movement.",
+      "attr": 0.0362,
+      "attributed": true
+    },
+    {
+      "idx": 24,
+      "text": "\"In the Name of Reconciliation of Peoples\"\n\"It is obvious to me that the League of Nations and the cooperatives have the same goals,\" I. Nitobe pointed out.",
+      "attr": 0.0244,
+      "attributed": true
+    },
+    {
+      "idx": 25,
+      "text": "The cooperative movement, he said, is a \"bridge of reconciliation\" between \"the purely capitalist economic system and its opponents, that is, communists and socialists.",
+      "attr": 0.0281,
+      "attributed": true
+    },
+    {
+      "idx": 26,
+      "text": "According to British historian Rita Rhodes, during World War I cooperatives managed to remain neutral and equidistant to all parties to the conflict.",
+      "attr": 0.0224,
+      "attributed": true
+    },
+    {
+      "idx": 27,
+      "text": "\"The International Cooperative International saw World War I as a war waged by capitalists and imperialists,\" says the now very elderly Rita Rhodes, the last living witness to the entire history of the International Cooperative International.",
+      "attr": -0.042,
+      "attributed": true
+    },
+    {
+      "idx": 28,
+      "text": "Despite the censorship and lack of paper, the Alliance could still continue to distribute its information material worldwide uninterruptedly, for example, in the format of its own monthly newsletter.",
+      "attr": -0.0856,
+      "attributed": true
+    },
+    {
+      "idx": 29,
+      "text": "Texts written in London were sent during the war via the Netherlands to continental Europe, where local figures of the cooperative movement translated the English originals into German, and representatives of the Swiss cooperative movement translated them into French as well.",
+      "attr": -0.0269,
+      "attributed": true
+    },
+    {
+      "idx": 30,
+      "text": "\"Thus, the international cooperative movement has always had a channel of information exchange at its disposal,\" says Rita Rhodes.",
+      "attr": -0.042,
+      "attributed": true
+    },
+    {
+      "idx": 31,
+      "text": "Nevertheless, members of national cooperative movements could not entirely escape the influence of the war: they were drafted for military service, and cooperative property, such as horses, was used by the authorities for military purposes.",
+      "attr": -0.0283,
+      "attributed": true
+    },
+    {
+      "idx": 32,
+      "text": "Some governments have suspended legislation regulating partnerships and cooperatives altogether.",
+      "attr": -0.0965,
+      "attributed": true
+    },
+    {
+      "idx": 33,
+      "text": "In this respect, from Rita Rhodes' point of view, the 1921 Congress was something of a \"trigger for reconciliation.",
+      "attr": -0.076,
+      "attributed": true
+    },
+    {
+      "idx": 34,
+      "text": "The war created tensions and at times led to rifts between national cooperative movements.",
+      "attr": -0.0389,
+      "attributed": true
+    },
+    {
+      "idx": 35,
+      "text": "In Basel, members of the International were able to meet again in person and reflect together on how and what damage the war had done to individual cooperative organizations.",
+      "attr": -0.02,
+      "attributed": true
+    },
+    {
+      "idx": 36,
+      "text": "The most heated debate in Basel was over attitudes toward the Soviet Union.",
+      "attr": -0.0932,
+      "attributed": true
+    },
+    {
+      "idx": 37,
+      "text": "Were cooperatives really allowed to operate freely there as the Soviet representatives who managed to come from London claimed?",
+      "attr": -0.0792,
+      "attributed": true
+    },
+    {
+      "idx": 38,
+      "text": "Or were they under totalitarian control of the state, as the French delegates said?",
+      "attr": -0.0579,
+      "attributed": true
+    },
+    {
+      "idx": 39,
+      "text": "In the end, a clear majority voted to maintain Soviet cooperatives' membership in this international movement.",
+      "attr": 0.2589,
+      "attributed": true
+    },
+    {
+      "idx": 40,
+      "text": "Attempts to prevent a world war\nMuch less contentious and controversial was the anti-war Basel Declaration issued on behalf of the Cooperative International.",
+      "attr": 1.0,
+      "attributed": true
+    },
+    {
+      "idx": 41,
+      "text": "This document, reflecting a commitment to \"corporate Europe,\" was compiled and presented by the French economist and ideologist of the cooperative movement, Charles Gide.",
+      "attr": 0.0939,
+      "attributed": true
+    },
+    {
+      "idx": 42,
+      "text": "It said that a fully cooperative economy and society based on the same \"moral principles\" would eliminate \"the root causes of wars.",
+      "attr": 0.0219,
+      "attributed": true
+    },
+    {
+      "idx": 43,
+      "text": "The declaration called on cooperators in individual countries to agitate for the reduction of military expenditures to a minimum and \"for the complete disarmament of all nations.",
+      "attr": 0.0955,
+      "attributed": true
+    },
+    {
+      "idx": 44,
+      "text": "The Basel Declaration concluded with a commitment by cooperative members of all countries to stop any new war by \"joint action, disregarding patriotic prejudice.",
+      "attr": 0.1675,
+      "attributed": true
+    },
+    {
+      "idx": 45,
+      "text": "If humanity, in its madness, unleashed a new war, then the members of the cooperative movement would force the resolution of the conflict through recourse to an \"arbitration court.",
+      "attr": 0.0683,
+      "attributed": true
+    },
+    {
+      "idx": 46,
+      "text": "The question of who exactly initiates arbitration proceedings and how this court will execute its decision remained, of course, open, especially since no international courts existed at the time.",
+      "attr": -0.0053,
+      "attributed": true
+    },
+    {
+      "idx": 47,
+      "text": "So what kind of world did the cooperators of that time live in?",
+      "attr": -0.0901,
+      "attributed": true
+    },
+    {
+      "idx": 48,
+      "text": "An imaginary world where everything was resolved amicably?",
+      "attr": -0.0748,
+      "attributed": true
+    },
+    {
+      "idx": 49,
+      "text": "Very quickly reality forced them to learn some very painful lessons.",
+      "attr": -0.0974,
+      "attributed": true
+    },
+    {
+      "idx": 50,
+      "text": "Organizational reorientation\nAlready in the 1920s, the Fascist dictatorship in Italy completely defeated the local cooperative movement, which is clear: the idea of a Fascist corporate state could not reconcile with an autonomous cooperative movement.",
+      "attr": 0.033,
+      "attributed": true
+    },
+    {
+      "idx": 51,
+      "text": "The position of the USSR had also changed, in which (remember the zeitgeist of Funt) the NEP was quickly curtailed, besides, Moscow was completely unsuited to all this rotten liberalism and pacifism of the Cooperative International.",
+      "attr": -0.0072,
+      "attributed": true
+    },
+    {
+      "idx": 52,
+      "text": "In Germany, in May 1933, the Nazis followed the Italian and Soviet path, turning the cooperative movement into an element of the totalitarian system, a kind of drive belts for the regime, thereby making the cooperative movement play the same role as the so-called \"trade unions\" in the Soviet context.",
+      "attr": -0.0029,
+      "attributed": true
+    },
+    {
+      "idx": 53,
+      "text": "In 1939 the ICA once again issued an anti-war declaration.",
+      "attr": -0.1049,
+      "attributed": true
+    },
+    {
+      "idx": 54,
+      "text": "The structure remains committed to \"positive peace\" today, as was reiterated at the organization's general assembly in Rwanda in 2019.",
+      "attr": -0.0705,
+      "attributed": true
+    },
+    {
+      "idx": 55,
+      "text": "\"Conflicts arise from unmet human needs, and it is the mission of the cooperative movement to find and meet them,\" the Rwandan Declaration said.",
+      "attr": -0.029,
+      "attributed": true
+    },
+    {
+      "idx": 56,
+      "text": "In Switzerland today, marketing, consumer and even banking cooperatives still play an important role within the overall economic system.",
+      "attr": 0.0198,
+      "attributed": true
+    },
+    {
+      "idx": 57,
+      "text": "According to the ICA World Cooperative Monitor 12% of the world's population are members of cooperatives almost today.",
+      "attr": 0.3019,
+      "attributed": true
+    },
+    {
+      "idx": 58,
+      "text": "However, very few national cooperatives now actively participate in the International Cooperative Alliance.",
+      "attr": -0.0099,
+      "attributed": true
+    },
+    {
+      "idx": 59,
+      "text": "The Association of Swiss Consumer Societies (Verband Schweizer Konsumvereine), the organizer of the 1921 Congress, has long since evolved into the country's largest supermarket chain, with the speaking name Coop.",
+      "attr": 0.126,
+      "attributed": true
+    },
+    {
+      "idx": 60,
+      "text": "At the end of the 20th century, retailer Coop withdrew from the international cooperative movement, the official reason for this decision being its \"organizational reorientation.",
+      "attr": -0.097,
+      "attributed": true
+    }
+  ]
+}

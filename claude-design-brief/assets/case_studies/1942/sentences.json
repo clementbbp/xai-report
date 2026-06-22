@@ -1,0 +1,150 @@
+{
+  "article_id": 1942,
+  "n_sentences": 24,
+  "sentences": [
+    {
+      "idx": 0,
+      "text": "On the icy shores of the North Sea, a \"graveyard\" under construction is raising the hopes of climate experts: soon, the site will house a small portion of the CO2 emitted by European industry, thus preventing it from ending up in the atmosphere.",
+      "attr": 1.0,
+      "attributed": true
+    },
+    {
+      "idx": 1,
+      "text": "For a long time perceived as a technically complicated and costly solution of marginal utility, carbon capture and storage (CCS) is now in vogue on a planet that is struggling to reduce its emissions despite the climate emergency.",
+      "attr": 0.1721,
+      "attributed": true
+    },
+    {
+      "idx": 2,
+      "text": "In the locality of Øygarden, on an island near Bergen (western Norway), a terminal currently under construction will receive tons of liquefied CO2 in a few years' time, transported from the Old Continent by ship after being captured at the exit of factory chimneys.",
+      "attr": 0.1972,
+      "attributed": true
+    },
+    {
+      "idx": 3,
+      "text": "From there, the carbon will be injected via a pipeline into geological cavities 2,600 meters below the seabed.",
+      "attr": -0.1114,
+      "attributed": true
+    },
+    {
+      "idx": 4,
+      "text": "With the ambition that it stays there indefinitely.",
+      "attr": -0.2131,
+      "attributed": true
+    },
+    {
+      "idx": 5,
+      "text": "It is \"the world's first ever open access transport and storage infrastructure, allowing any emitter who has captured their CO2 emissions to have them safely and securely picked up, transported and permanently stored,\" says project manager Sverre Overå.",
+      "attr": 0.0671,
+      "attributed": true
+    },
+    {
+      "idx": 6,
+      "text": "As the largest producer of hydrocarbons in Western Europe, Norway is also believed to have the largest CO2 storage potential on the continent, notably in its depleted oil fields.",
+      "attr": -0.0114,
+      "attributed": true
+    },
+    {
+      "idx": 7,
+      "text": "Commercial agreements\nThe Øygarden terminal is part of the \"Langskip\" plan, the Norwegian name for Viking ships.",
+      "attr": -0.1283,
+      "attributed": true
+    },
+    {
+      "idx": 8,
+      "text": "Oslo has financed 80% of the infrastructure by putting 1.7 billion euros on the table to develop CCS in the country.",
+      "attr": -0.0999,
+      "attributed": true
+    },
+    {
+      "idx": 9,
+      "text": "Two sites in the Oslo region, a cement plant and a waste-to-energy plant, are expected to eventually ship their CO2 there.",
+      "attr": -0.1095,
+      "attributed": true
+    },
+    {
+      "idx": 10,
+      "text": "But the particularity of the project lies in its commercial aspect by also giving foreign industrialists the possibility to send their own carbon dioxide.",
+      "attr": -0.0313,
+      "attributed": true
+    },
+    {
+      "idx": 11,
+      "text": "To achieve this, energy giants Equinor, TotalEnergies and Shell have formed a partnership, called Northern Lights, which will be the world's first cross-border CO2 transport and storage service when it begins operations in 2024.",
+      "attr": 0.178,
+      "attributed": true
+    },
+    {
+      "idx": 12,
+      "text": "Two important milestones for CCS in Norway have been reached in recent days.",
+      "attr": -0.1381,
+      "attributed": true
+    },
+    {
+      "idx": 13,
+      "text": "On Monday, the Northern Lights partners announced a first cross-border commercial agreement that will see 800,000 tons of CO2 captured at a Dutch fertilizer manufacturer Yara's plant transported and sequestered by special vessels each year, starting in 2025.",
+      "attr": 0.321,
+      "attributed": true
+    },
+    {
+      "idx": 14,
+      "text": "The next day, Equinor unveiled a project with Germany's Wintershall Dea to build a 900-kilometer pipeline to transport CO2 from Germany for storage in Norway.",
+      "attr": 0.2784,
+      "attributed": true
+    },
+    {
+      "idx": 15,
+      "text": "A similar project with Belgium is already in the pipeline.",
+      "attr": -0.1157,
+      "attributed": true
+    },
+    {
+      "idx": 16,
+      "text": "Not a miracle solution\nHowever, CCS is not a miracle solution against global warming.",
+      "attr": -0.1595,
+      "attributed": true
+    },
+    {
+      "idx": 17,
+      "text": "In its first phase, Northern Lights will be able to process 1.5 million tons of CO2 per year, a capacity that will then be increased to 5-6 million tons.",
+      "attr": -0.1274,
+      "attributed": true
+    },
+    {
+      "idx": 18,
+      "text": "By way of comparison, the European Union, according to the European Environment Agency, emitted 3.7 billion tons of greenhouse gases in 2020, a year plagued by the pandemic.",
+      "attr": -0.1278,
+      "attributed": true
+    },
+    {
+      "idx": 19,
+      "text": "But both the Intergovernmental Panel on Climate Change (IPCC) and the International Energy Agency believe that this tool is necessary to stop the rise of the thermometer.",
+      "attr": -0.0749,
+      "attributed": true
+    },
+    {
+      "idx": 20,
+      "text": "Among environmentalists, the technology is not unanimously supported.",
+      "attr": -0.2514,
+      "attributed": true
+    },
+    {
+      "idx": 21,
+      "text": "Some are concerned that it will serve as a reason to prolong the exploitation of fossil fuels, that it will divert valuable investments from renewable energies, or that it will lead to leakage.",
+      "attr": -0.164,
+      "attributed": true
+    },
+    {
+      "idx": 22,
+      "text": "\"We have always opposed CCS, but because of the inaction on the climate crisis, it is becoming more and more difficult to hold this position,\" says Halvard Raavand, a representative of Greenpeace Norway.",
+      "attr": -0.1383,
+      "attributed": true
+    },
+    {
+      "idx": 23,
+      "text": "\"Public money would be better invested in solutions that we know are effective and that could also reduce the bill of normal people, such as home insulation or solar panels,\" he said.",
+      "attr": -0.212,
+      "attributed": true
+    }
+  ]
+}

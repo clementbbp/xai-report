@@ -1,0 +1,306 @@
+{
+  "article_id": 2140,
+  "n_sentences": 50,
+  "sentences": [
+    {
+      "idx": 0,
+      "text": "Gas shortage and energy shortage?",
+      "attr": 0.3778,
+      "attributed": true
+    },
+    {
+      "idx": 1,
+      "text": "The Swiss government has done little to remedy the problem.",
+      "attr": 0.0128,
+      "attributed": true
+    },
+    {
+      "idx": 2,
+      "text": "Therefore, citizens are taking their own measures.",
+      "attr": 0.0866,
+      "attributed": true
+    },
+    {
+      "idx": 3,
+      "text": "In Switzerland, there is a race to find power generators.",
+      "attr": -0.0371,
+      "attributed": true
+    },
+    {
+      "idx": 4,
+      "text": "\"We sold nine times more portable power stations and four times more power generators in July than in 2021 in the same month,\" Alex Hämmerli, spokesman for the online shopping mall Digitec Galaxus, told swissinfo.ch.",
+      "attr": 0.1149,
+      "attributed": true
+    },
+    {
+      "idx": 5,
+      "text": "Not only the market leader in Swiss online trading, but also its large and small competitors see a great deal of interest in emergency power systems.",
+      "attr": 0.0446,
+      "attributed": true
+    },
+    {
+      "idx": 6,
+      "text": "Purchase of candles and firewood\nCrisis preparation has a long tradition in Switzerland.",
+      "attr": -0.0612,
+      "attributed": true
+    },
+    {
+      "idx": 7,
+      "text": "For example, there are more bunkers than inhabitants, and the annual testing of emergency sirens only surprises newcomers.",
+      "attr": -0.0466,
+      "attributed": true
+    },
+    {
+      "idx": 8,
+      "text": "The saying \"Kluger Rat, Notvorrat \" (\"Wise counsel, emergency reserves\") is more than half a century old and has been raising awareness for generations.",
+      "attr": -0.0309,
+      "attributed": true
+    },
+    {
+      "idx": 9,
+      "text": "So it is not surprising that manufacturers and retailers are now experiencing a rush for portable power stations and power generators.",
+      "attr": 0.0047,
+      "attributed": true
+    },
+    {
+      "idx": 10,
+      "text": "Werner Luginbühl, president of the Swiss Electricity Commission, is considered to be the country's chief electrician.",
+      "attr": -0.0199,
+      "attributed": true
+    },
+    {
+      "idx": 11,
+      "text": "In early August, he advised, in the Sunday newspaper NZZ am Sonntag, to buy candles and firewood.",
+      "attr": -0.0834,
+      "attributed": true
+    },
+    {
+      "idx": 12,
+      "text": "Candles are already on the list of items in the official emergency supplies for all households, and so are batteries.",
+      "attr": -0.0637,
+      "attributed": true
+    },
+    {
+      "idx": 13,
+      "text": "The power generators do not.",
+      "attr": -0.1522,
+      "attributed": true
+    },
+    {
+      "idx": 14,
+      "text": "\"There are no recommendations for the purchase of emergency power generators,\" says the Dept.",
+      "attr": -0.0484,
+      "attributed": true
+    },
+    {
+      "idx": 15,
+      "text": "Federal Agency for Civil Protection (BABS).",
+      "attr": -0.1135,
+      "attributed": true
+    },
+    {
+      "idx": 16,
+      "text": "Appeal to businesses in Germany\nThis summer, some journalists from Germany traveled to Switzerland to find out about the many bunkers and the Swiss mentality towards precaution.",
+      "attr": 0.0362,
+      "attributed": true
+    },
+    {
+      "idx": 17,
+      "text": "As for individual emergency power sources, however, Germany does more.",
+      "attr": -0.097,
+      "attributed": true
+    },
+    {
+      "idx": 18,
+      "text": "Already in 2015, the German Federal Office for Civil Protection and Disaster Relief (BKK, in its German acronym) made available the information film \"What to do in case of a power cut - generate your own electricity\" (in German), which calls on individuals and neighborhoods to inform themselves about generators or complete emergency power systems.",
+      "attr": 0.1567,
+      "attributed": true
+    },
+    {
+      "idx": 19,
+      "text": "The film still enjoys a certain popularity on YouTube, and its basic content is still valid today, a spokesman for the German BKK told swissinfo: \"We advise everyone to deal with the topic in general as part of private emergency preparedness and to take appropriate precautions according to their personal needs and possibilities.",
+      "attr": 0.7091,
+      "attributed": true
+    },
+    {
+      "idx": 20,
+      "text": "Also, unlike Switzerland, there has been a call in Germany for private companies to not only define savings scenarios, but also to prepare.",
+      "attr": 0.194,
+      "attributed": true
+    },
+    {
+      "idx": 21,
+      "text": "Patrick Graichen, State Secretary of the German Federal Authority for Economic Affairs and Climate Protection, called on all private companies to buy emergency generators at the beginning of July.",
+      "attr": 0.0792,
+      "attributed": true
+    },
+    {
+      "idx": 22,
+      "text": "A 72-hour autonomy is the goal if the worst happens.",
+      "attr": -0.141,
+      "attributed": true
+    },
+    {
+      "idx": 23,
+      "text": "Wealth does not protect\nNot only appliances for a few hundred or a few thousand Swiss francs, but also such professional emergency power systems are currently in demand among wealthy private citizens in Switzerland.",
+      "attr": -0.0143,
+      "attributed": true
+    },
+    {
+      "idx": 24,
+      "text": "The SRF television channel reports that the half-yearly rental of an emergency power system, capable of supplying a village, from a Swiss supplier costs 100,000 Swiss francs.",
+      "attr": -0.0741,
+      "attributed": true
+    },
+    {
+      "idx": 25,
+      "text": "However, just because someone has money does not mean that he will get that system at the moment: according to the SRF, demand is greater than supply - locally and internationally.",
+      "attr": -0.0484,
+      "attributed": true
+    },
+    {
+      "idx": 26,
+      "text": "Private residences come last on the priority list.",
+      "attr": -0.1624,
+      "attributed": true
+    },
+    {
+      "idx": 27,
+      "text": "Thus, regardless of their finances, those in Switzerland who are willing to take precautions against possible blackouts cannot afford energy autonomy in the short term.",
+      "attr": -0.0916,
+      "attributed": true
+    },
+    {
+      "idx": 28,
+      "text": "Portable power stations\nThe really affordable appliances are not able to overcome a power outage that lasts more than a week.",
+      "attr": -0.1231,
+      "attributed": true
+    },
+    {
+      "idx": 29,
+      "text": "Digitec Galaxus sold mostly portable power stations - equipped with oversized batteries that are usually charged at the wall socket - last July; three times as many as power generators.",
+      "attr": -0.0968,
+      "attributed": true
+    },
+    {
+      "idx": 30,
+      "text": "However, a portable power station can only power an entire house for a very short period.",
+      "attr": -0.1162,
+      "attributed": true
+    },
+    {
+      "idx": 31,
+      "text": "In the case of gasoline generators, on the other hand, the problem is the fire protection regulations: in Switzerland, no more than 25 liters of gasoline per gallon may be stored per hold, and no more than 100 liters in a protective cabinet.",
+      "attr": -0.0874,
+      "attributed": true
+    },
+    {
+      "idx": 32,
+      "text": "Power generators consume 1 to 3 liters of gasoline per hour of operation.",
+      "attr": -0.1264,
+      "attributed": true
+    },
+    {
+      "idx": 33,
+      "text": "At some point, even the most cautious would stand by candlelight.",
+      "attr": -0.1531,
+      "attributed": true
+    },
+    {
+      "idx": 34,
+      "text": "But a week-long power blackout in winter did not seem realistic to most experts - the risk of a power outage was considered by the authorities to be real, at least until mid-August.",
+      "attr": -0.04,
+      "attributed": true
+    },
+    {
+      "idx": 35,
+      "text": "However, a shortage would still not mean a blackout: the Swiss authorities are relying on calls to save energy, and if these are not sufficient, the operation of certain appliances will be prohibited first.",
+      "attr": -0.0473,
+      "attributed": true
+    },
+    {
+      "idx": 36,
+      "text": "As a second last resort, large companies would have to settle for a maximum electricity quota.",
+      "attr": 0.037,
+      "attributed": true
+    },
+    {
+      "idx": 37,
+      "text": "The shutdown - hourly - of the power grid for residences is the highest level of the crisis plan.",
+      "attr": 1.0,
+      "attributed": true
+    },
+    {
+      "idx": 38,
+      "text": "Interaction between electricity and gas\nAccording to the Federal Supply Dept.",
+      "attr": -0.1036,
+      "attributed": true
+    },
+    {
+      "idx": 39,
+      "text": "Federal Supply Dept., the supply situation in Switzerland is currently secure.",
+      "attr": 0.0193,
+      "attributed": true
+    },
+    {
+      "idx": 40,
+      "text": "However, there is also the threat of natural gas shortages in the run-up to or during the winter.",
+      "attr": -0.0653,
+      "attributed": true
+    },
+    {
+      "idx": 41,
+      "text": "Federal Counselor Simonetta Sommaruga already announced in early July that she has a shortage.",
+      "attr": -0.124,
+      "attributed": true
+    },
+    {
+      "idx": 42,
+      "text": "The interaction between electricity and heating is a headache for authorities and energy producers: if many people rely on mobile electric heaters in winter because they want cozy warmth despite the lack of gas, the situation with electricity will get worse.",
+      "attr": -0.037,
+      "attributed": true
+    },
+    {
+      "idx": 43,
+      "text": "And it is quite possible that many of the recently purchased portable power stations, chargeable at plugs, are intended by their owners to operate such an electric heater.",
+      "attr": -0.0351,
+      "attributed": true
+    },
+    {
+      "idx": 44,
+      "text": "A spokesman for the Swiss Association of Electricity Companies (VSE) said on August 11: \"When it comes to critical winter supply, it is now more important than ever: every kilowatt-hour counts - especially every kilowatt-hour saved.",
+      "attr": -0.0303,
+      "attributed": true
+    },
+    {
+      "idx": 45,
+      "text": "Seven days later, the power companies and the authorities are breathing a sigh of relief.",
+      "attr": -0.1304,
+      "attributed": true
+    },
+    {
+      "idx": 46,
+      "text": "The federal government wants to enter into contracts with companies that can compensate for short-term bottlenecks in the power grid with \"backup power plants.\"",
+      "attr": -0.1206,
+      "attributed": true
+    },
+    {
+      "idx": 47,
+      "text": "Some of these oil and gas power plants are professional emergency power generators with which private companies have made provisions.",
+      "attr": -0.1508,
+      "attributed": true
+    },
+    {
+      "idx": 48,
+      "text": "The August 12, 2022 article was updated on August 18 to include the latest developments.",
+      "attr": null,
+      "attributed": false
+    },
+    {
+      "idx": 49,
+      "text": "Adaptation: Karleno Bocarro",
+      "attr": null,
+      "attributed": false
+    }
+  ]
+}

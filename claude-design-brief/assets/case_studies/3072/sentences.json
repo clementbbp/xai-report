@@ -1,0 +1,126 @@
+{
+  "article_id": 3072,
+  "n_sentences": 20,
+  "sentences": [
+    {
+      "idx": 0,
+      "text": "Academics, civil engineers and architects from three of six funds worth £23bn vote to sell off coal and high risk oil and gas – but lawyers, vets and other engineers vote against divestment\n\nAcademics, civil engineers and architects in Denmark have voted in favour of their pension funds selling off coal and high risk oil and gas investments, because of the role of fossil fuels in driving climate change.",
+      "attr": 0.5659,
+      "attributed": true
+    },
+    {
+      "idx": 1,
+      "text": "However, votes on divestment by lawyers, vets and other engineers were narrowly lost.",
+      "attr": -0.1489,
+      "attributed": true
+    },
+    {
+      "idx": 2,
+      "text": "Together the six pension funds for Danish professionals cover 200,000 people, about 5% of all workers, and have €32bn (£23bn) of assets.",
+      "attr": -0.086,
+      "attributed": true
+    },
+    {
+      "idx": 3,
+      "text": "Denmark’s largest pension fund, PFA, has already excluded tar sands companies and PKA, the fourth largest fund which provides pensions for nurses, has excluded over 30 coal companies.",
+      "attr": -0.1006,
+      "attributed": true
+    },
+    {
+      "idx": 4,
+      "text": "“We are very happy with the success we have had so far,” said Prof Thomas Meinert Larsen, at Copenhagen University and part of the Danish Fossil Free campaign.",
+      "attr": 0.0138,
+      "attributed": true
+    },
+    {
+      "idx": 5,
+      "text": "“It is very encouraging that we have had more support this year than last year.",
+      "attr": -0.1752,
+      "attributed": true
+    },
+    {
+      "idx": 6,
+      "text": "We think it is only moving in one direction.”\n\nOther major financial institutions in Scandinavia have also divested from fossil fuel stocks.",
+      "attr": 0.0647,
+      "attributed": true
+    },
+    {
+      "idx": 7,
+      "text": "The region’s biggest fund manager Nordea and Norway’s sovereign wealth fund, the world’s biggest, have sold out of dozens of coal companies.",
+      "attr": -0.0915,
+      "attributed": true
+    },
+    {
+      "idx": 8,
+      "text": "On Monday, Norway’s £580bn sovereign wealth fund said it had cut by 40% its investments in companies whose sole business is coal mining and also suggested to general mining companies, in which the fund has much bigger stakes, that they spin off their coal assets.",
+      "attr": -0.0695,
+      "attributed": true
+    },
+    {
+      "idx": 9,
+      "text": "The six Danish pension funds held votes in April on divesting from coal, tar sands, Arctic and deepwater oil and gas exploitation.",
+      "attr": -0.1316,
+      "attributed": true
+    },
+    {
+      "idx": 10,
+      "text": "The largest, called the MP Pension and representing 110,000 academics, voted in favour of a resolution presented at their annual general meeting, as did the smaller architects and civil engineer funds.",
+      "attr": -0.1106,
+      "attributed": true
+    },
+    {
+      "idx": 11,
+      "text": "But the boards that run the academics and architects funds said they would not implement the decision, arguing that engaging with companies was preferable.",
+      "attr": -0.0843,
+      "attributed": true
+    },
+    {
+      "idx": 12,
+      "text": "“They say their engagement is really successful,” said Larsen.",
+      "attr": -0.1805,
+      "attributed": true
+    },
+    {
+      "idx": 13,
+      "text": "“So we say ‘can you show us some examples?’ But they can’t really come up with anything.” He noted that awareness of divestment had been raised such that the Danish business association for the pension and insurance industry have placed it on the agenda of their annual meeting taking place this week.",
+      "attr": 1.0,
+      "attributed": true
+    },
+    {
+      "idx": 14,
+      "text": "The boards of the lawyers and engineers funds, where votes for divestment were narrowly lost, nonetheless said they would look into the risk of the funds losing money by being invested in fossil fuels.",
+      "attr": -0.0254,
+      "attributed": true
+    },
+    {
+      "idx": 15,
+      "text": "The World Bank and Bank of England have both warned of a serious risk to coal, oil and gas investments if the world’s nations fulfil their pledge to cut carbon emissions rapidly.",
+      "attr": 0.0174,
+      "attributed": true
+    },
+    {
+      "idx": 16,
+      "text": "The rising prominence of divestment in Scandinavia is part of a fast-growing and UN-backed climate change campaign that has already persuaded 180 institutions to sell off investments in coal, oil and gas.",
+      "attr": -0.0115,
+      "attributed": true
+    },
+    {
+      "idx": 17,
+      "text": "On Thursday, the Church of England sold off its investments in coal and tar sands, which produce far more carbon dioxide than oil and gas.",
+      "attr": -0.1469,
+      "attributed": true
+    },
+    {
+      "idx": 18,
+      "text": "A series of analyses have shown that there are already several times more fossil fuels in proven reserves than can be burned if catastrophic global warming is to be avoided.",
+      "attr": -0.132,
+      "attributed": true
+    },
+    {
+      "idx": 19,
+      "text": "Divestment campaigners argue that the hundreds of billions of dollars companies are still spending every year on exploration for even more fossil fuels is a danger to both the climate and investors’ capital.",
+      "attr": -0.167,
+      "attributed": true
+    }
+  ]
+}
