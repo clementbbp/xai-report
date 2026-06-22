@@ -622,181 +622,181 @@
       ]
     ]
   },
-  "2761": {
-    "c_score": 2,
-    "label": 0,
-    "pred": 0,
-    "prob": 0.2281,
-    "text_600": "The German government wants to implement the agreement on the genocide of the Herero and Nama despite criticism. This is the result of the answer to a small question from the Left Party, which DW has exclusively obtained.\nThe German-Namibian reconciliation has become quiet. A declaration on the genocide in former German Southwest Africa has been on the table since May 2021, but neither government has signed it yet. Descendants of the victims and some politicians called for renegotiations even then.\nOnly talks about the implementation\nAfter a long period of silence, the German government has no",
+  "2493": {
+    "c_score": 4,
+    "label": 1,
+    "pred": 1,
+    "prob": 0.7868,
+    "text_600": "In these low-emission zones, traffic is restricted for the most polluting vehicles, which are identified by the Crit'Air 5 and 4 stickers. Several municipalities such as Marseille, Lyon and Toulouse are inaugurating or extending the implementation of their LEZ on Thursday.\nFrançois Chollet, the vice-president of Toulouse Metropole in charge of Ecology, Sustainable Development and Energy Transition, estimates on Thursday 1 September on franceinfo that with the extension of the low emission zone (ZFE) on Thursday in his metropole, \"450,000 people will see a net improvement in air quality\" by 202",
     "top_words": [
       [
-        "part",
+        "low-emission",
         1.0
       ],
       [
-        "pure",
-        0.936
+        "zones",
+        0.881
       ],
       [
-        "1.1",
-        0.455
+        "professionals",
+        0.839
       ],
       [
-        "remain",
-        0.342
+        "targeting",
+        0.565
       ],
       [
-        "games",
-        0.314
+        "these",
+        0.515
       ],
       [
-        "planning",
+        "traffic",
+        0.496
+      ],
+      [
+        "lez",
+        0.435
+      ],
+      [
+        "cœur",
+        0.423
+      ],
+      [
+        "restricted",
+        0.398
+      ],
+      [
+        "polluting",
+        0.373
+      ],
+      [
+        "stickers",
+        0.355
+      ],
+      [
+        "while",
+        0.346
+      ],
+      [
+        "epz",
+        0.343
+      ],
+      [
+        "distorting",
+        0.332
+      ],
+      [
+        "oldest",
+        0.311
+      ],
+      [
+        "emission",
         0.305
       ],
       [
-        "being",
-        0.291
+        "case-by-case",
+        0.302
       ],
       [
-        "wants",
-        0.252
+        "vehicles",
+        0.302
       ],
       [
-        "implement",
-        0.231
+        "450,000",
+        0.287
       ],
       [
-        "funds",
-        0.223
-      ],
-      [
-        "earmarked",
-        0.216
-      ],
-      [
-        "criticism",
-        0.214
-      ],
-      [
-        "rejected",
-        0.213
-      ],
-      [
-        "2024",
-        0.212
-      ],
-      [
-        "negotiated",
-        0.204
-      ],
-      [
-        "german-namibian",
-        0.204
-      ],
-      [
-        "german",
-        0.193
-      ],
-      [
-        "possible",
-        0.192
-      ],
-      [
-        "bundestag",
-        0.18
-      ],
-      [
-        "government",
-        0.165
+        "crit'air",
+        0.279
       ]
     ]
   },
-  "3293": {
-    "c_score": 3,
-    "label": 0,
-    "pred": 0,
-    "prob": 0.4484,
-    "text_600": "Beaumont to fight cancer with Proton Therapy Center\n\nBeaumont Health will unveil today a high-tech cancer-fighting therapy that is considered ideal for destroying cancer cells close to vital organs.\n\nThe $40-million Proton Therapy Center in Royal Oak will be one of only 25 such operational centers in the country and the only one in Michigan. The treatment, which targets cancer cells more precisely, is called proton beam therapy.\n\nAlthough the therapy is touted as a way to boost the quality of life for patients because it can reduce side effects, proton beam therapy is also controversial becaus",
+  "3072": {
+    "c_score": 5,
+    "label": 1,
+    "pred": 1,
+    "prob": 0.9074,
+    "text_600": "Academics, civil engineers and architects from three of six funds worth £23bn vote to sell off coal and high risk oil and gas – but lawyers, vets and other engineers vote against divestment\n\nAcademics, civil engineers and architects in Denmark have voted in favour of their pension funds selling off coal and high risk oil and gas investments, because of the role of fossil fuels in driving climate change.\n\nHowever, votes on divestment by lawyers, vets and other engineers were narrowly lost.\n\nTogether the six pension funds for Danish professionals cover 200,000 people, about 5% of all workers, an",
     "top_words": [
       [
-        "beaumont",
+        "such",
         1.0
       ],
       [
-        "center",
-        0.45
+        "academics",
+        0.968
       ],
       [
-        "high-tech",
-        0.38
+        "campaign",
+        0.898
       ],
       [
-        "cancer-fighting",
-        0.327
+        "divestment",
+        0.896
       ],
       [
-        "beaumont's",
-        0.322
+        "danish",
+        0.706
       ],
       [
-        "fight",
-        0.319
+        "awareness",
+        0.644
       ],
       [
-        "disputed",
-        0.295
+        "raised",
+        0.623
       ],
       [
-        "cancer",
-        0.281
+        "association",
+        0.425
       ],
       [
-        "proton",
-        0.266
+        "gas",
+        0.349
       ],
       [
-        "40-million",
+        "noted",
+        0.344
+      ],
+      [
+        "scandinavia",
+        0.332
+      ],
+      [
+        "£23bn",
+        0.316
+      ],
+      [
+        "anything.”",
+        0.313
+      ],
+      [
+        "vote",
+        0.305
+      ],
+      [
+        "“it",
+        0.294
+      ],
+      [
+        "denmark’s",
+        0.28
+      ],
+      [
+        "business",
         0.254
       ],
       [
-        "unveil",
-        0.253
+        "agenda",
+        0.248
       ],
       [
-        "such",
-        0.251
+        "year",
+        0.229
       ],
       [
-        "incurable.”in",
-        0.243
-      ],
-      [
-        "need",
-        0.242
-      ],
-      [
-        "therapy",
-        0.23
-      ],
-      [
-        "today",
-        0.22
-      ],
-      [
-        "michigan",
-        0.197
-      ],
-      [
-        "health",
-        0.191
-      ],
-      [
-        "unnecessarily",
-        0.186
-      ],
-      [
-        "25,200-square-foot",
-        0.186
+        "larsen",
+        0.226
       ]
     ]
   }

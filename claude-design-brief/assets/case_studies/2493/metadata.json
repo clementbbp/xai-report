@@ -1,0 +1,47 @@
+{
+  "article_id": 2493,
+  "c_score": 4,
+  "label": 1,
+  "prob": 0.786825,
+  "prob_cal": 0.8082852152808331,
+  "pred": 1,
+  "pred_cal": 1,
+  "case_study_reason": "confident-correct-constructive",
+  "top_sentences_positive": [
+    {
+      "idx": 0,
+      "text": "In these low-emission zones, traffic is restricted for the most polluting vehicles, which are identified by the Crit'Air",
+      "attr": 1.0
+    },
+    {
+      "idx": 20,
+      "text": "And there are negotiations on a case-by-case basis, so as to minimize the economic impact on these professionals, while ",
+      "attr": 0.5927
+    },
+    {
+      "idx": 2,
+      "text": "Fran\u00e7ois Chollet, the vice-president of Toulouse Metropole in charge of Ecology, Sustainable Development and Energy Tran",
+      "attr": 0.5555
+    }
+  ],
+  "top_sentences_negative": [
+    {
+      "idx": 23,
+      "text": "This is very important.",
+      "attr": -0.2849
+    },
+    {
+      "idx": 14,
+      "text": "It's a constraint, so it requires anticipation.",
+      "attr": -0.2454
+    },
+    {
+      "idx": 9,
+      "text": "We are still in an educational phase, with random checks.",
+      "attr": -0.237
+    }
+  ],
+  "n_words_attributed": 441,
+  "n_sentences": 25,
+  "n_sentences_attributed": 25
+}

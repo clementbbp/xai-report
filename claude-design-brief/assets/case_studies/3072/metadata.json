@@ -1,0 +1,47 @@
+{
+  "article_id": 3072,
+  "c_score": 5,
+  "label": 1,
+  "prob": 0.907375,
+  "prob_cal": 0.9251474662549918,
+  "pred": 1,
+  "pred_cal": 1,
+  "case_study_reason": "confident-correct-constructive",
+  "top_sentences_positive": [
+    {
+      "idx": 13,
+      "text": "\u201cSo we say \u2018can you show us some examples?\u2019 But they can\u2019t really come up with anything.\u201d He noted that awareness of div",
+      "attr": 1.0
+    },
+    {
+      "idx": 0,
+      "text": "Academics, civil engineers and architects from three of six funds worth \u00a323bn vote to sell off coal and high risk oil an",
+      "attr": 0.5659
+    },
+    {
+      "idx": 6,
+      "text": "We think it is only moving in one direction.\u201d\n\nOther major financial institutions in Scandinavia have also divested from",
+      "attr": 0.0647
+    }
+  ],
+  "top_sentences_negative": [
+    {
+      "idx": 12,
+      "text": "\u201cThey say their engagement is really successful,\u201d said Larsen.",
+      "attr": -0.1805
+    },
+    {
+      "idx": 5,
+      "text": "\u201cIt is very encouraging that we have had more support this year than last year.",
+      "attr": -0.1752
+    },
+    {
+      "idx": 19,
+      "text": "Divestment campaigners argue that the hundreds of billions of dollars companies are still spending every year on explora",
+      "attr": -0.167
+    }
+  ],
+  "n_words_attributed": 576,
+  "n_sentences": 20,
+  "n_sentences_attributed": 20
+}

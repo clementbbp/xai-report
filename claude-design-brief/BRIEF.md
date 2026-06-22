@@ -272,13 +272,13 @@ On click/expand: show the full sentence chart (sentence_chart.png) and a link to
 |----|------|-------|
 | 1942 | Correct — constructive | Carbon capture, North Sea |
 | 2469 | Correct — constructive | The cooperative movement and world peace |
+| 2493 | Correct — constructive | French cities implement low-emission zones for air quality |
+| 3072 | Correct — constructive | Danish pension funds divest from fossil fuels |
 | 2421 | Correct — conventional | Lithuanian AI-generated TV duets show |
-| 2761 | Correct — conventional | Germany–Namibia genocide recognition stalls |
 | 275 | Missed — model said constructive | VAT fraud and European tax Europol proposal |
 | 1246 | Missed — model said conventional | EU accused of complicity in Balkan migrant pushbacks |
 | 2037 | Boundary (score=4) | German coalition parties disagree on energy relief measures |
 | 2140 | Boundary (score=4) | Swiss citizens buying generators amid energy shortage fears |
-| 3293 | Boundary (score=3) | Beaumont Health unveils $40M proton therapy cancer center |
 
 **Intro text for missed cases:**
 > "These are the cases where the model got it wrong. We include them here because understanding where it fails is as important as seeing where it succeeds. In each case, we explain why."
