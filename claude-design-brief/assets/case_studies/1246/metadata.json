@@ -9,40 +9,39 @@
   "case_study_reason": "confident-wrong-constructive",
   "top_sentences_positive": [
     {
-      "idx": 62,
-      "text": "Croatia wants to be incorporated into the Schengen area and is therefore under pressure from Brussels to show that  the ",
+      "idx": 28,
+      "text": "Thus, poor Bosnia has been left with the responsibility of dealing with migrants who otherwise just wanted to  pass thro",
       "attr": 1.0
     },
     {
-      "idx": 27,
-      "text": "Thus, poor Bosnia has been left with the responsibility of dealing with migrants who otherwise just wanted to  pass thro",
-      "attr": 0.6587
+      "idx": 104,
+      "text": "One of the camp's unaccompanied minors, 14-year-old person, will be with a small group  take a few steps back and go to ",
+      "attr": 0.9758
     },
     {
-      "idx": 76,
-      "text": "One of the camp's unaccompanied minors, 14-year-old person, will be with a small group  take a few steps back and go to ",
-      "attr": 0.6419
+      "idx": 82,
+      "text": "organisation sees the Croats' treatment of migrants as a consequence of organisation wanting to  deter potential migrant",
+      "attr": 0.9735
     }
   ],
   "top_sentences_negative": [
     {
-      "idx": 31,
+      "idx": 33,
       "text": "Now .",
-      "attr": -0.1194
+      "attr": -0.1231
     },
     {
-      "idx": 30,
+      "idx": 111,
+      "text": "\u00ab.",
+      "attr": -0.1221
+    },
+    {
+      "idx": 32,
       "text": "They want away.",
-      "attr": -0.1158
-    },
-    {
-      "idx": 54,
-      "text": "Our money, clothes and telephone.",
-      "attr": -0.1153
+      "attr": -0.1179
     }
   ],
   "n_words_attributed": 2191,
-  "n_sentences": 82,
-  "n_sentences_attributed": 82,
-  "predicted_score": 1.1
+  "n_sentences": 113,
+  "n_sentences_attributed": 113
 }

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<title>Article 275 — SHAP</title>
+<style>
+  body {font-family:Georgia,serif;max-width:960px;margin:2em auto;line-height:1.85;}
+  h2 {font-size:1.1em;margin-bottom:.5em;}
+  table {border-collapse:collapse;margin-bottom:1.4em;font-size:.88em;}
+  td,th {border:1px solid #ccc;padding:4px 10px;}
+  th {background:#f4f4f4;text-align:left;}
+  .legend {font-size:.85em;margin-bottom:1em;}
+  .text {font-size:1.02em;}
+  .limit-note {color:#888;font-style:italic;font-size:.83em;
+               border-top:1px dashed #bbb;border-bottom:1px dashed #bbb;
+               padding:5px 0;margin:1.2em 0;}
+  .caveat {font-size:.8em;color:#555;background:#fffde7;
+            border-left:3px solid #f9a825;padding:7px 12px;margin-top:1.2em;}
+</style></head><body>
+<h2>Article 275 — SHAP Word Attribution Highlights</h2>
+<table>
+  <tr><th>Article ID</th><td>275</td></tr>
+  <tr><th>Human rating</th><td>c_score = 3 (conventional (c≤3))</td></tr>
+  <tr><th>Model P(constructive)</th><td>0.9698</td></tr>
+  <tr><th>Model prediction</th><td>constructive</td></tr>
+  <tr><th>Case type</th><td>confident wrong conventional</td></tr>
+  <tr><th>Method</th><td>Partition SHAP (cross-check).  AOPC compr = 0.031 — below random (0.057). SHAP sufficiency (0.072) is the best of all methods, suggesting SHAP tokens are sufficient but not uniquely necessary. Use as secondary view only.</td></tr>
+</table>
+<div class="legend">
+  <span style="background:rgba(0,180,0,.55);padding:2px 6px">Green</span>
+  = words pushing toward <em>constructive</em> &nbsp;
+  <span style="background:rgba(200,0,0,.55);padding:2px 6px">Red</span>
+  = words pushing toward <em>conventional</em> &nbsp;
+  Intensity = attribution strength.
+</div>
+<div class="text">
+<span style="background-color:rgba(0,180,0,0.37)">The</span> <span style="background-color:rgba(0,180,0,0.41)">coverage</span> <span style="background-color:rgba(0,180,0,0.20)">of</span> <span style="background-color:rgba(0,180,0,0.55)">large</span> <span style="background-color:rgba(0,180,0,0.06)">cases</span> <span style="background-color:rgba(0,180,0,0.07)">of</span> <span style="background-color:rgba(0,180,0,0.03)">fraud</span> <span style="background-color:rgba(0,180,0,0.18)">with</span> <span style="background-color:rgba(0,180,0,0.13)">VAT</span> <span style="background-color:rgba(0,180,0,0.09)">for</span> <span style="background-color:rgba(0,180,0,0.08)">several</span> <span style="background-color:rgba(0,180,0,0.03)">hundred</span> <span style="background-color:rgba(0,180,0,0.01)">million</span> <span style="background-color:rgba(0,180,0,0.12)">kroner</span> <span style="background-color:rgba(0,180,0,0.05)">now</span> <span style="background-color:rgba(0,180,0,0.06)">gets</span> <span style="background-color:rgba(0,180,0,0.07)">The</span> <span style="background-color:rgba(0,180,0,0.01)">Social</span> <span style="background-color:rgba(0,180,0,0.16)">Democrats</span> <span style="background-color:rgba(0,180,0,0.08)">to</span> <span style="background-color:rgba(0,180,0,0.33)">propose</span> <span style="background-color:rgba(0,180,0,0.05)">the</span> <span style="background-color:rgba(0,180,0,0.02)">creation</span> <span style="background-color:rgba(0,180,0,0.15)">of</span> <span style="background-color:rgba(0,180,0,0.20)">a</span> <span style="background-color:rgba(0,180,0,0.19)">pan-European</span> <span style="background-color:rgba(200,0,0,0.07)">tax</span> <span style="background-color:rgba(0,180,0,0.05)">Europol,</span> <span style="background-color:rgba(0,180,0,0.70)">which</span> <span style="background-color:rgba(0,180,0,0.07)">can</span> <span style="background-color:rgba(0,180,0,0.03)">ensure</span> <span style="background-color:rgba(0,180,0,0.12)">better</span> <span style="background-color:rgba(0,180,0,0.10)">coordination.</span> <span style="background-color:rgba(0,180,0,0.04)">In</span> <span style="background-color:rgba(0,180,0,0.00)">addition,</span> <span style="background-color:rgba(0,180,0,0.10)">national</span> <span style="background-color:rgba(0,180,0,0.03)">controls</span> <span style="background-color:rgba(0,180,0,0.17)">need</span> <span style="background-color:rgba(0,180,0,0.15)">to</span> <span style="background-color:rgba(0,180,0,0.15)">be</span> <span style="background-color:rgba(0,180,0,0.06)">strengthened.</span> <span style="background-color:rgba(200,0,0,0.02)">Every</span> <span style="background-color:rgba(200,0,0,0.05)">year,</span> <span style="background-color:rgba(200,0,0,0.01)">European</span> <span style="background-color:rgba(0,180,0,0.00)">taxpayers</span> <span style="background-color:rgba(0,180,0,0.05)">lose</span> <span style="background-color:rgba(200,0,0,0.03)">billions</span> <span style="background-color:rgba(0,180,0,0.11)">of</span> <span style="background-color:rgba(0,180,0,0.19)">kroner</span> <span style="background-color:rgba(0,180,0,0.19)">to</span> <span style="background-color:rgba(0,180,0,0.06)">fraudsters,</span> <span style="background-color:rgba(0,180,0,0.02)">and</span> <span style="background-color:rgba(0,180,0,0.09)">organisation</span> <span style="background-color:rgba(0,180,0,0.01)">will</span> <span style="background-color:rgba(0,180,0,0.01)">now</span> <span style="background-color:rgba(0,180,0,0.01)">take</span> <span style="background-color:rgba(0,180,0,0.10)">action</span> <span style="background-color:rgba(0,180,0,0.29)">against</span> <span style="background-color:rgba(0,180,0,0.10)">this.</span> <span style="background-color:rgba(0,180,0,0.01)">By</span> <span style="background-color:rgba(0,180,0,0.09)">using</span> <span style="background-color:rgba(0,180,0,0.04)">complicated</span> <span style="background-color:rgba(0,180,0,0.02)">company</span> <span style="background-color:rgba(0,180,0,0.01)">constructions,</span> <span style="background-color:rgba(0,180,0,0.01)">the</span> <span style="background-color:rgba(0,180,0,0.01)">scammers</span> <span style="background-color:rgba(0,180,0,0.00)">take</span> </div>
+<div class="limit-note">
+  &#x2014;&#x2014; 512-token model limit: text above is all the model read &#x2014;&#x2014;
+</div>
+<div class="caveat"><strong>Faithfulness note:</strong> LIG AOPC comprehensiveness = 0.093 on this dataset (gate threshold 0.10; 163% above random baseline 0.057). Highlights show correlational influence, not causal proof. Sentence-level bar chart is the primary human-facing view.</div>
+</body></html>

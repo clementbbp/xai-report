@@ -9,40 +9,39 @@
   "case_study_reason": "confident-correct-constructive",
   "top_sentences_positive": [
     {
-      "idx": 41,
+      "idx": 40,
       "text": "Attempts to prevent a world war\nMuch less contentious and controversial was the anti-war Basel Declaration issued on beh",
       "attr": 1.0
     },
     {
-      "idx": 58,
+      "idx": 57,
       "text": "According to the ICA World Cooperative Monitor 12% of the world's population are members of cooperatives almost today.",
-      "attr": 0.3035
+      "attr": 0.3019
     },
     {
       "idx": 0,
       "text": "The cooperative movement was once at the forefront of the global struggle for consumer rights, affordable rents, and eve",
-      "attr": 0.297
+      "attr": 0.2955
     }
   ],
   "top_sentences_negative": [
     {
       "idx": 3,
       "text": "Cooperative apartment?",
-      "attr": -0.1166
+      "attr": -0.119
     },
     {
       "idx": 11,
       "text": "\"Our influence is too weak, we were helpless.",
-      "attr": -0.1146
+      "attr": -0.1171
     },
     {
       "idx": 9,
       "text": "Let's go back in history.",
-      "attr": -0.1067
+      "attr": -0.1091
     }
   ],
   "n_words_attributed": 1270,
-  "n_sentences": 62,
-  "n_sentences_attributed": 62,
-  "predicted_score": 3.9
+  "n_sentences": 61,
+  "n_sentences_attributed": 61
 }

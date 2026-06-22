@@ -9,40 +9,39 @@
   "case_study_reason": "confident-correct-conventional",
   "top_sentences_positive": [
     {
-      "idx": 36,
+      "idx": 37,
       "text": "Even if it's not legally mandatory, at least it would be politically and have high symbolic power,\" she says.",
       "attr": 1.0
     },
     {
       "idx": 19,
       "text": "The first funds have already been earmarked in the 2022 budget: 35 million euros for development projects and 4 million ",
-      "attr": 0.9906
+      "attr": 0.9907
     },
     {
       "idx": 6,
       "text": "\"In the view of the German government, the Joint Declaration is thus fully negotiated, even if talks are still being hel",
-      "attr": 0.6915
+      "attr": 0.6943
     }
   ],
   "top_sentences_negative": [
     {
       "idx": 32,
       "text": "Decision in October?",
-      "attr": -0.346
+      "attr": -0.3337
     },
     {
       "idx": 12,
       "text": "\"This is development cooperation.",
-      "attr": -0.3291
+      "attr": -0.317
     },
     {
       "idx": 13,
       "text": "This is about funding projects and infrastructure, that's okay.",
-      "attr": -0.2993
+      "attr": -0.2875
     }
   ],
   "n_words_attributed": 843,
-  "n_sentences": 40,
-  "n_sentences_attributed": 39,
-  "predicted_score": 1.9
+  "n_sentences": 41,
+  "n_sentences_attributed": 40
 }

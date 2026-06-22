@@ -250,15 +250,15 @@ The `attr` value (0–1) drives `width` as a percentage of the right half: `widt
 ---
 
 **Transition text between showcase and deep dive:**
-> "These are the clearest cases. Below are all 12 articles the model analyzed in depth, including cases where it got it wrong."
+> "These are the clearest cases. Below are all 9 articles the model analyzed in depth, including cases where it got it wrong."
 
 ---
 
 ### Section 3 — All Case Studies (Deep Dive)
 
-**Purpose:** Full exploration of all 12 case studies. Editors who want to dig in can see every article, its score, and the model's reasoning.
+**Purpose:** Full exploration of all 9 case studies. Editors who want to dig in can see every article, its score, and the model's reasoning.
 
-**Layout:** A navigable grid or tab interface with 12 cards. Each card shows:
+**Layout:** A navigable grid or tab interface with 9 cards. Each card shows:
 - Article ID and short description
 - c_score (human rating, 1–5)
 - Model score (1–5) — use `predicted_score` from each case study's `metadata.json`, displayed as `MODEL  X.X` alongside `C_SCORE  X`
@@ -271,14 +271,11 @@ On click/expand: show the full sentence chart (sentence_chart.png) and a link to
 | ID | Type | Story |
 |----|------|-------|
 | 1942 | Correct — constructive | Carbon capture, North Sea |
-| 603 | Correct — constructive | Transgender identity trends in Denmark |
 | 2469 | Correct — constructive | The cooperative movement and world peace |
-| 396 | Correct — conventional | Imams recommending voting in Danish election |
 | 2421 | Correct — conventional | Lithuanian AI-generated TV duets show |
 | 2761 | Correct — conventional | Germany–Namibia genocide recognition stalls |
 | 275 | Missed — model said constructive | VAT fraud and European tax Europol proposal |
 | 1246 | Missed — model said conventional | EU accused of complicity in Balkan migrant pushbacks |
-| 1585 | Boundary (score=3) | Bjørn Lomborg's shifting influence on the climate debate |
 | 2037 | Boundary (score=4) | German coalition parties disagree on energy relief measures |
 | 2140 | Boundary (score=4) | Swiss citizens buying generators amid energy shortage fears |
 | 3293 | Boundary (score=3) | Beaumont Health unveils $40M proton therapy cancer center |
@@ -291,6 +288,11 @@ On click/expand: show the full sentence chart (sentence_chart.png) and a link to
 
 **Explanatory text for article 1246 (false negative):**
 > "This is a deeply reported investigation into the treatment of migrants at the EU's Balkan border — exactly the kind of journalism the tool is designed to surface. The model called it conventional. The language is heavy: accused, violent, illegal, die. The model reads adversarial tone as a conventional signal, even when the journalism beneath it is solution-oriented. This is one of the clearest cases of the model mistaking surface tone for structural constructiveness."
+
+**Note on word-level highlights for articles 275 and 1246:**
+Both articles are from the DNM corpus, which anonymised named entities during data collection: people and organisations were replaced with the literal tokens `person` and `organisation` before training. As a result, the word-level highlight view for these two articles shows `person` and `organisation` where you would expect real names. This reflects exactly what the model read — it never saw the original names. The sentence-level bar chart is unaffected. The disclosure below should appear near both articles' detail views:
+
+> "Named entities (people and organisations) in this article were anonymised before the model was trained — the model read `person` and `organisation` in place of real names. The word-level highlights reflect this: where you see those tokens, a specific name appeared in the original text."
 
 ---
 
@@ -405,6 +407,7 @@ Include a sticky top navigation bar with anchor links to all 7 sections. Use sec
 ### Word highlight view (secondary)
 - Available as a "Word-level detail →" link that opens `word_highlights_lig.html` in a new tab or modal
 - Do NOT try to replicate the word highlight inside the main report — link to the pre-built HTML
+- The HTML files contain HTML-encoded text (e.g. `&#x27;` for apostrophes). Always render them via a `<iframe>` or direct browser link — never paste the raw HTML source as plain text, or entities will appear literally.
 
 ### Case study cards (Section 3)
 - Each card collapsed by default, showing summary + verdict badge
@@ -445,7 +448,7 @@ claude-design-brief/
     │   ├── 2421_sentence_chart.png  ← conventional showcase chart
     │   └── 2421_word_highlights_lig.html
     ├── case_studies/
-    │   └── {id}/                    ← all 12 real case studies
+    │   └── {id}/                    ← all 9 real case studies
     │       ├── sentence_chart.png
     │       ├── word_highlights_lig.html
     │       └── metadata.json

@@ -16,33 +16,32 @@
     {
       "idx": 23,
       "text": "Terminations for this reason are also to be prohibited for six months.",
-      "attr": 0.8241
+      "attr": 0.8247
     },
     {
       "idx": 25,
       "text": "The upcoming increase in the CO2 price is to be suspended for two years, which the Greens have already rejected.",
-      "attr": 0.4302
+      "attr": 0.4323
     }
   ],
   "top_sentences_negative": [
     {
       "idx": 19,
       "text": "An overview.",
-      "attr": -0.1614
+      "attr": -0.1573
     },
     {
-      "idx": 45,
+      "idx": 46,
       "text": "It does not provide an incentive to save energy.",
-      "attr": -0.1591
+      "attr": -0.155
     },
     {
       "idx": 15,
       "text": "The Scholz cabinet demonstrates unity.",
-      "attr": -0.1524
+      "attr": -0.1483
     }
   ],
   "n_words_attributed": 735,
-  "n_sentences": 48,
-  "n_sentences_attributed": 47,
-  "predicted_score": 2.5
+  "n_sentences": 49,
+  "n_sentences_attributed": 48
 }
