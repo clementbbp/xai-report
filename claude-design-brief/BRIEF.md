@@ -102,7 +102,7 @@ Build the report as a single scrollable page with anchor navigation. Sections in
 
 **Panel 2 — What it misses (brick red accent)**
 > Headline: "Struggles at the boundary"
-> Body: The model's main challenge is c_score 4 — borderline constructive articles with the fewest training examples. These often score 2.5–3.5 rather than 4+. Use the score as a priority queue, not a yes/no filter: the top of the list will be disproportionately constructive even when individual scores fall below a clear threshold.
+> Body: The model's main challenge is the grey zone — articles that sit right on the boundary between conventional and constructive journalism. These often score 2.5–3.5 rather than crossing into 4+. Use the score as a priority queue, not a yes/no filter: the top of the list will be disproportionately constructive even when individual scores fall short of a clear threshold.
 
 **Panel 3 — What drives the score (gold accent)**
 > Headline: "Sentence structure, not just topic"
@@ -316,13 +316,13 @@ Both articles are from the DNM corpus, which anonymised named entities during da
 >
 > Where it is most reliable: conventional journalism. 96% of clearly conventional articles score low. Editors using the tool as a first-pass filter will see very little noise from content that obviously isn't constructive.
 >
-> Where it struggles: borderline content. At a review threshold of score ≥ 3.0, the model surfaces about 6 in 10 constructive articles. Articles scoring between 2.5 and 3.5 are the hardest cases — often deeply reported journalism that the model underscores because it has seen too few examples like them in training.
+> Where it struggles: borderline content. When reviewing articles scoring 3 or higher, the model surfaces about 6 in 10 constructive articles. Articles scoring between 2.5 and 3.5 are the hardest cases — often deeply reported journalism that sits right on the boundary the model finds hardest to read.
 >
 > How to use the score: treat it as a ranked reading queue, not a gate. Set your own threshold based on review capacity. Articles at 4+ are strong candidates; articles at 3–4 are worth a second look; articles below 3 are unlikely to be constructive."
 
 **Charts to embed:**
-1. `assets/performance/ordinal_error_distribution.png` — use only as supporting detail, not the lead visual. Caption: "Correct and incorrect predictions by human c_score. The model is nearly perfect on c_score 1–2 (clearly conventional) and struggles most at c_score 4 — the borderline constructive category with the fewest training examples. Note: the box plot on the left shows the model's internal score distribution, which maps to the 1–5 display scale; the bar chart on the right shows raw counts rather than rates."
-2. `assets/performance/calibration_by_cscore.png` — lead visual for this section. Caption: "Mean model score by human c_score. Each step up in human rating corresponds to a higher model score — the ordering is consistent across all five levels. **Note on the chart title:** the 'Spearman rho=1.000' statistic measures only whether the five group *averages* are monotonically ordered — which they always will be for a working model. It is not a measure of individual prediction accuracy and should not be read as 'the model is perfect.'"
+1. `assets/performance/ordinal_error_distribution.png` — use only as supporting detail, not the lead visual. Caption: "Correct and incorrect predictions by human rating. The model is nearly perfect on clearly conventional articles (rated 1 or 2 out of 5) and misses the most at the borderline constructive category (rated 4 out of 5). Note: the box plot on the left shows the model's internal score distribution, which maps to the 1–5 display scale; the bar chart on the right shows raw counts rather than rates."
+2. `assets/performance/calibration_by_cscore.png` — lead visual for this section. Caption: "Mean model score by human rating. Each step up in human rating corresponds to a higher model score — the ordering is consistent across all five levels."
 3. Do NOT embed `confusion_matrix.png`. It is generated at a fixed score threshold (≥ 4.0) that produces only 17% recall, which is inconsistent with the threshold-agnostic framing of this section and would mislead editors.
 
 ---
